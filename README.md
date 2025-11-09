@@ -137,6 +137,16 @@ A powerful feature that connects consumers, communities, and regulatory authorit
 ### Authentication
  - Auth0
 
+### API's Used
+ - LeafLet's Map API
+ - Retell AI agents 
+ - N8N Webhooks
+ - Gmail API
+ - Google Cloud Console
+ - Gemini API
+ - ChatBase Agents
+ 
+
 
 
 
@@ -314,15 +324,16 @@ Add your run commands here
 ## Team
 
 Team Members:
-- 
-- 
-- 
+- Samanyu Gautam
+- Mayank Chanana
+- Himanshi
+- Kriti
 
 ---
 
 ## Acknowledgments
 
-- Thanks to the hackathon organizers for this opportunity
+- Thanks to the hackathon organizers for this opportunity @HACKcbs8.0
 - Open-source community for amazing tools and libraries
 - Food safety researchers for domain knowledge
 - FSSAI for regulatory guidance
@@ -339,9 +350,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 For questions, feedback, or collaboration opportunities:
-- Email: your.email@example.com
-- GitHub: YOUR_GITHUB_PROFILE
-- LinkedIn: YOUR_LINKEDIN_PROFILE
+- Email: gautamsamanyu3482@gmail.com
+- GitHub: https://github.com/Samanyu3482
+- LinkedIn: www.linkedin.com/in/samanyu-gautam-cse-ai
 
 ---
 
