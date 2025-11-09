@@ -107,25 +107,37 @@ A powerful feature that connects consumers, communities, and regulatory authorit
 ## Technology Stack
 
 ### Frontend
+   - EJS Templating 
+   - HTML
+   - CSS
+   - JS
 
 
 ### Backend
+    - NODE.js
+    - EXPRESS JS
+    - FASTapi (for ML models)
+
+
 
 
 ### Machine Learning
 - Frameworks: 
-- Models: 
-- Visualization: 
+- Models: SVM , Decision Tree
+- Visualization: input (Food name , brand and contaminant) -> output (Severity towards your health)
 
 ### Automation & Integration
-- N8N: 
-- Voice AI: 
-- Email Service: 
+- N8N: 1. Image -> OCR extraction -> GEMINI API -> Description -> Results sent to Mail
+- Voice AI: Talk to our Agent -> Checkout the Lab availability -> Confirms the booking
+- Email Service: N8N webhooks integration
 
 ### Database
+ - Mongo DB 
+
+### Authentication
+ - Auth0
 
 
-### Deployment
 
 
 ---
@@ -216,12 +228,6 @@ View Presentation Slides: YOUR_PPT_LINK
 
 ## Machine Learning Models
 
-### Model Performance
-
-| Model | Accuracy | Precision | Recall | F1-Score |
-|-------|----------|-----------|--------|----------|
-| SVM | XX% | XX% | XX% | XX% |
-| Decision Tree | XX% | XX% | XX% | XX% |
 
 ### Feature Engineering
 - Feature extraction from food images
