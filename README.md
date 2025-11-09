@@ -168,7 +168,7 @@ FSSAI Integration
 ## Screenshots
 
 ### 1. Homepage
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots/home.png)
 
 Clean and intuitive interface for food safety information
 
@@ -177,38 +177,33 @@ Clean and intuitive interface for food safety information
 
 Comprehensive collection of home remedies and lab tests
 
-### 3. Image Upload & Analysis
-![Image Upload](screenshots/image-upload.png)
+### 3. Food Priority Desk
+![Image Upload](screenshots/items.png)
 
 Simple drag-and-drop interface for food image analysis
 
-### 4. Email Report
-![Email Report](screenshots/email-report.png)
+### 4. AI Agent
+![Email Report](screenshots/chatbot.png)
 
 Detailed analysis report delivered to user's inbox
 
 ### 5. Voice AI Booking
-![Voice AI](screenshots/voice-ai.png)
+![Voice AI](screenshots/voice.png)
 
 Natural conversation interface for lab test bookings
 
-### 6. ML Model Dashboard
-![ML Dashboard](screenshots/ml-dashboard.png)
+### 6. Graphs & Heatmaps
+![ML Dashboard](screenshots/ml.png)
 
 Explainable AI visualizations and predictions
 
-### 7. Graphs & Heatmaps
-![Visualizations](screenshots/visualizations.png)
-
-Feature importance, correlation matrices, and decision paths
-
-### 8. Community Report System
+### 7. Community Report System
 ![Community Reports](screenshots/community-reports.png)
 
 Location-based report viewing and submission interface
 
-### 9. FSSAI Integration
-![FSSAI Integration](screenshots/fssai-integration.png)
+### 8. FSSAI Integration
+
 
 Automatic report forwarding to regulatory authorities
 
@@ -227,6 +222,8 @@ View Presentation Slides: YOUR_PPT_LINK
 ---
 
 ## Machine Learning Models
+    - SVM
+    - Decision Tree
 
 
 ### Feature Engineering
