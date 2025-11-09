@@ -198,7 +198,7 @@ Natural conversation interface for lab test bookings
 Explainable AI visualizations and predictions
 
 ### 7. Community Report System
-![Community Reports](screenshots/community-reports.png)
+![Community Reports](screenshots/report2.png)
 
 Location-based report viewing and submission interface
 
