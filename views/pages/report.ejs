@@ -1,0 +1,145 @@
+<% layout('layouts/boilerplate') %>
+
+
+
+<section class="hero-section">
+        <div id="particles-js"></div>
+        <div class="container">
+            <h1>Report Food Adulteration</h1>
+            <p>Help protect your community. Report suspected adulterated food products securely to FSSAI</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-info-circle"> <i class="fas fa-user-secret"></i> </i>
+                        </div>
+                        <h3>Confidential</h3>
+                        <p>Your report is handled confidentially by FSSAI officials</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-check-circle"> <i class="fa fa-check-circle"></i></i>
+                        </div>
+                        <h3>Verified</h3>
+                        <p>Expert verification ensures accuracy before action</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-upload"><i class="fas fa-file-alt"></i></i>
+                        </div>
+                        <h3>Evidence</h3>
+                        <p>You can attach photos and documents as proof</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="container">
+        <div class="form-section">
+            <h2>Report Details</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="foodItem" class="form-label">Food Item Name <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="foodItem" placeholder="e.g., Turmeric Powder, Milk, Honey">
+                </div>
+
+                <div class="mb-4">
+                    <label for="purchaseLocation" class="form-label">Where did you purchase it? <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="purchaseLocation" placeholder="Shop name and area/city">
+                </div>
+
+                <div class="mb-4">
+                    <label for="description" class="form-label">Describe what you noticed <span class="text-danger">*</span></label>
+                    <textarea class="form-control" id="description" placeholder="Describe the signs of adulteration you noticed (color, smell, texture, etc.)"></textarea>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" id="email" placeholder="your@email.com">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="+91 (optional)">
+                    </div>
+                </div>
+
+                <div class="disclaimer-box">
+                    By submitting this report, you agree that the information is true and accurate. False reports may result in legal action.
+                </div>
+
+                <button type="submit" class="btn btn-submit">Submit Report</button>
+            </form>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="form-section faq-section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <h4>Is my identity protected?</h4>
+                <p>Yes, FSSAI maintains confidentiality of all reporters. Your identity will not be disclosed without your consent.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What happens after I report?</h4>
+                <p>FSSAI will verify your report, inspect the product, and take appropriate action. You will receive updates via email.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Can I report without details?</h4>
+                <p>Detailed information helps in verification. Please provide as much information as possible for effective investigation.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What documents can I attach?</h4>
+                <p>Photos of the product, package, label, bills, and any test results can be attached as evidence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>Other Ways to Report</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="contact-card">
+                        <h3>FSSAI Helpline</h3>
+                        <div class="contact-value">1800-11-4646</div>
+                        <p>Available 24/7</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-card">
+                        <h3>Email</h3>
+                        <div class="contact-value">
+                            <a href="mailto:report@fssai.gov.in">report@fssai.gov.in</a>
+                        </div>
+                        <p>Response within 48 hours</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-card">
+                        <h3>Website</h3>
+                        <div class="contact-value">
+                            <a href="https://www.fssai.gov.in" target="_blank">www.fssai.gov.in</a>
+                        </div>
+                        <p>Official FSSAI portal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

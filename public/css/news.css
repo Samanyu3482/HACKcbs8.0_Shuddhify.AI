@@ -1,0 +1,277 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+
+/* Hero Section */
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #d1f2eb 0%, #a8e6cf 100%);
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+    position: relative;        /* ADD THIS */
+    overflow: hidden;          /* ADD THIS */
+}
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+    text-align: center; /* Centers text horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center;
+    height: 100%; /* Fill the hero section height */
+    min-height: 30vh; /* Optional: makes hero section tall enough */
+}
+
+/* ADD these new styles */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hero-content-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-title {
+   
+    font-size: 3rem;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.125rem;
+    color: #6b7280;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Location Section */
+.location-section {
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.location-icon {
+    flex-shrink: 0;
+}
+
+.btn-location {
+    background: white;
+    color: #1f2937;
+    border: 2px solid #e5e7eb;
+    padding: 8px 20px;
+    border-radius: 24px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-location:hover {
+    border-color: #22c55e;
+    color: #22c55e;
+}
+
+.btn-location.active {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    color: white;
+    border-color: #22c55e;
+}
+
+.btn-auto-detect {
+    background: #ecfeff;
+    color: #0891b2;
+    border: 2px solid #67e8f9;
+    padding: 8px 20px;
+    border-radius: 24px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.btn-auto-detect:hover {
+    background: #cffafe;
+    border-color: #22d3ee;
+}
+
+/* News Section */
+.news-section {
+    background: #f9fafb;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.news-card {
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.news-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.badge-category {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.badge-guideline {
+    background: #d1fae5;
+    color: #059669;
+}
+
+.badge-technology {
+    background: #dbeafe;
+    color: #2563eb;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+
+.card-description {
+    color: #6b7280;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.arrow-icon {
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.news-card:hover .arrow-icon {
+    transform: translateX(4px);
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.newsletter-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.newsletter-subtitle {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2rem;
+}
+
+.newsletter-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.newsletter-input {
+    flex: 1;
+    min-width: 300px;
+    padding: 14px 24px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 1rem;
+}
+
+.newsletter-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.newsletter-input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+    border-color: white;
+}
+
+.btn-subscribe {
+    background: white;
+    color: #22c55e;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.btn-subscribe:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .newsletter-title {
+        font-size: 1.875rem;
+    }
+
+    .newsletter-input {
+        min-width: 100%;
+    }
+
+    .btn-subscribe {
+        width: 100%;
+    }
+}

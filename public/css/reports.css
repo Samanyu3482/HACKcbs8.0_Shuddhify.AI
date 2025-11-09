@@ -1,0 +1,537 @@
+    .report-page-wrapper * {
+      
+      box-sizing: border-box;
+    }
+
+    .report-page-wrapper {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e8f5e9 100%);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    /* Main Container */
+    .report-container {
+      max-width: 1000px;
+      margin: 0 auto;
+     
+      
+    }
+
+    .report-header {
+      text-align: center;
+      margin-bottom: 40px;
+    
+    }
+
+    .report-header h1 {
+      font-size: 42px;
+      color: #1f2937;
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+
+    .report-header p {
+      font-size: 17px;
+      color: #6b7280;
+    }
+
+    /* Report Card */
+    .report-card {
+      background: white;
+      border-radius: 16px;
+      padding: 50px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      margin-bottom: 30px;
+    }
+
+    /* Form Groups */
+    .form-group {
+      margin-bottom: 28px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 15px;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 10px;
+    }
+
+    .form-group label i {
+      margin-right: 8px;
+      color: #16a34a;
+    }
+
+    .form-group input[type="text"],
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 14px 16px;
+      border: 1.5px solid #e5e7eb;
+      border-radius: 10px;
+      font-size: 15px;
+      font-family: inherit;
+      transition: all 0.3s;
+      background: #fafafa;
+    }
+
+    .form-group input[type="text"]:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #16a34a;
+      background: white;
+      box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.1);
+    }
+
+    .form-group input::placeholder,
+    .form-group textarea::placeholder {
+      color: #9ca3af;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    .char-count {
+      display: block;
+      text-align: right;
+      font-size: 13px;
+      color: #9ca3af;
+      margin-top: 6px;
+    }
+
+    /* Location Section */
+    .location-section {
+      background: #f9fafb;
+      padding: 30px;
+      border-radius: 12px;
+      margin: 30px 0;
+    }
+
+    .location-section h3 {
+      font-size: 18px;
+      color: #1f2937;
+      margin-bottom: 25px;
+      font-weight: 600;
+    }
+
+    .location-section h3 i {
+      color: #16a34a;
+      margin-right: 8px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    /* Map */
+    #locationMap {
+      height: 300px;
+      border-radius: 12px;
+      margin-top: 10px;
+      border: 2px solid #e5e7eb;
+    }
+
+    .btn-locate {
+      width: 100%;
+      background: #06b6d4;
+      color: white;
+      border: none;
+      padding: 14px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: background 0.3s;
+    }
+
+    .btn-locate:hover {
+      background: #0891b2;
+    }
+
+    .btn-locate i {
+      margin-right: 8px;
+    }
+
+    .btn-locate:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    /* Form Actions */
+    .form-actions {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 15px;
+      margin-top: 35px;
+    }
+
+    .btn {
+      padding: 16px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .btn-submit {
+      background: #16a34a;
+      color: white;
+    }
+
+    .btn-submit:hover:not(:disabled) {
+      background: #15803d;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);
+    }
+
+    .btn-submit:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .btn-reset {
+      background: white;
+      color: #16a34a;
+      border: 2px solid #16a34a;
+    }
+
+    .btn-reset:hover {
+      background: #f0fdf4;
+    }
+
+    /* Alerts */
+    .alert {
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 25px;
+      display: flex;
+      align-items: start;
+      gap: 15px;
+    }
+
+    .alert i {
+      font-size: 24px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .alert-success {
+      background: #d1fae5;
+      border: 2px solid #16a34a;
+      color: #065f46;
+    }
+
+    .alert-success i {
+      color: #16a34a;
+    }
+
+    .alert-error {
+      background: #fee2e2;
+      border: 2px solid #ef4444;
+      color: #991b1b;
+    }
+
+    .alert-error i {
+      color: #ef4444;
+    }
+
+    .alert strong {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+
+    .alert p {
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+
+    .btn-view {
+      background: #16a34a;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 5px;
+    }
+
+    /* My Reports Section */
+    .my-reports-section {
+      background: white;
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .my-reports-section h2 {
+      font-size: 24px;
+      color: #1f2937;
+      margin-bottom: 25px;
+      font-weight: 600;
+    }
+
+    .my-reports-section h2 i {
+      color: #16a34a;
+      margin-right: 10px;
+    }
+
+    #myReportsList {
+      min-height: 100px;
+    }
+
+    .loading {
+      text-align: center;
+      color: #9ca3af;
+      padding: 40px;
+      font-size: 15px;
+    }
+
+    .no-reports,
+    .error {
+      text-align: center;
+      color: #9ca3af;
+      padding: 40px;
+      font-size: 15px;
+    }
+
+    .error {
+      color: #ef4444;
+    }
+
+    /* Report Card Item Styles */
+    .report-card-item {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+      transition: all 0.3s;
+    }
+
+    .report-card-item:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+
+    .report-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #e5e7eb;
+    }
+
+    .report-card-header h4 {
+      font-size: 20px;
+      color: #1f2937;
+      font-weight: 700;
+      margin: 0 0 8px 0;
+    }
+
+    .report-date {
+      display: block;
+      font-size: 13px;
+      color: #6b7280;
+      font-weight: 500;
+    }
+
+    .report-date i {
+      margin-right: 6px;
+    }
+
+    .badge {
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .status-pending {
+      background: #fef3c7;
+      color: #92400e;
+    }
+
+    .status-verified {
+      background: #d1fae5;
+      color: #065f46;
+    }
+
+    .status-rejected {
+      background: #fee2e2;
+      color: #991b1b;
+    }
+
+    .severity-low {
+      background: #dbeafe;
+      color: #1e40af;
+    }
+
+    .severity-medium {
+      background: #fed7aa;
+      color: #9a3412;
+    }
+
+    .severity-high {
+      background: #fecaca;
+      color: #991b1b;
+    }
+
+    .report-card-body {
+      margin-bottom: 20px;
+    }
+
+    .report-info-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    .report-info-item {
+      display: flex;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .report-info-item.full-width {
+      grid-column: 1 / -1;
+    }
+
+    .report-info-item i {
+      color: #16a34a;
+      font-size: 16px;
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+
+    .report-info-item .label {
+      display: block;
+      font-size: 12px;
+      color: #6b7280;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+
+    .report-info-item .value {
+      display: block;
+      font-size: 14px;
+      color: #1f2937;
+      font-weight: 500;
+    }
+
+    .report-card-actions {
+      display: flex;
+      gap: 10px;
+      padding-top: 15px;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    .btn-view-location {
+      flex: 1;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .btn-view-location:hover {
+      background: #2563eb;
+      transform: translateY(-1px);
+    }
+
+    .btn-delete-report {
+      background: #ef4444;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-delete-report:hover {
+      background: #dc2626;
+      transform: translateY(-1px);
+    }
+
+    .btn-delete-report i,
+    .btn-view-location i {
+      font-size: 14px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .report-page-wrapper {
+        padding: 20px 15px;
+      }
+
+      .report-card {
+        padding: 30px 20px;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+
+      .form-actions {
+        grid-template-columns: 1fr;
+      }
+
+      .report-header h1 {
+        font-size: 32px;
+      }
+
+      .location-section {
+        padding: 20px;
+      }
+
+      .my-reports-section {
+        padding: 25px 20px;
+      }
+
+      .report-info-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .report-card-actions {
+        flex-direction: column;
+      }
+
+      .btn-view-location,
+      .btn-delete-report {
+        width: 100%;
+      }
+    }

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <%- styles %>
+</head>
+<body>
+
+
+  <!-- Location Permission Modal -->
+  <div id="locationModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-icon">📍</div>
+      <h2>Find Reports Near You</h2>
+      <p>We need your location to show nearby food adulteration reports</p>
+      <div class="radius-selector">
+        <label for="radiusSelect">Search Radius:</label>
+        <select id="radiusSelect">
+          <option value="1000">1 km</option>
+          <option value="2000">2 km</option>
+          <option value="5000" selected>5 km</option>
+          <option value="10000">10 km</option>
+          <option value="20000">20 km</option>
+        </select>
+      </div>
+      <div class="modal-buttons">
+        <button class="btn btn-primary" id="allowLocation">
+          <i class="fas fa-check"></i> Allow Location
+        </button>
+        <button class="btn btn-secondary" id="manualLocation">
+          <i class="fas fa-map-marked-alt"></i> Enter Manually
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Manual Location Modal -->
+  <div id="manualModal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-icon">🗺️</div>
+      <h2>Enter Location Manually</h2>
+      <div class="manual-form">
+        <div class="form-group">
+          <label for="manualLat">Latitude</label>
+          <input type="number" id="manualLat" step="any" placeholder="e.g., 28.7041">
+        </div>
+        <div class="form-group">
+          <label for="manualLng">Longitude</label>
+          <input type="number" id="manualLng" step="any" placeholder="e.g., 77.1025">
+        </div>
+        <div class="form-group">
+          <label for="manualRadius">Search Radius</label>
+          <select id="manualRadius">
+            <option value="1000">1 km</option>
+            <option value="2000">2 km</option>
+            <option value="5000" selected>5 km</option>
+            <option value="10000">10 km</option>
+            <option value="20000">20 km</option>
+          </select>
+        </div>
+        <div class="modal-buttons">
+          <button class="btn btn-primary" id="submitManual">
+            <i class="fas fa-search"></i> Search
+          </button>
+          <button class="btn btn-secondary" id="cancelManual">
+            <i class="fas fa-times"></i> Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nearby-container">
+    <!-- Header -->
+    <div class="nearby-header">
+      <h1>📍 Reports Near You</h1>
+      <p id="locationInfo">Loading your location...</p>
+      <div class="stats-bar">
+        <div class="stat-item">
+          <span class="stat-number" id="totalReports">0</span>
+          <span class="stat-label">Total Reports</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number high" id="highSeverity">0</span>
+          <span class="stat-label">High Severity</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number medium" id="mediumSeverity">0</span>
+          <span class="stat-label">Medium</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number low" id="lowSeverity">0</span>
+          <span class="stat-label">Low</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls-bar">
+      <button class="btn btn-change-location" id="changeLocation">
+        <i class="fas fa-sync-alt"></i> Change Location
+      </button>
+      <div class="view-toggle">
+        <button class="toggle-btn active" data-view="both">
+          <i class="fas fa-th-large"></i> Both
+        </button>
+        <button class="toggle-btn" data-view="map">
+          <i class="fas fa-map"></i> Map Only
+        </button>
+        <button class="toggle-btn" data-view="cards">
+          <i class="fas fa-list"></i> Cards Only
+        </button>
+      </div>
+    </div>
+
+    <!-- Content Area -->
+    <div class="content-wrapper">
+      <!-- Map Section -->
+      <div class="map-section" id="mapSection">
+        <div id="nearbyMap"></div>
+      </div>
+
+      <!-- Cards Section -->
+      <div class="cards-section" id="cardsSection">
+        <div id="reportCards">
+          <div class="loading-state">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Loading nearby reports...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%- scripts %>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<% layout('layouts/boilerplate') %>
+
+<form action="/api/analyze-ingrid" method="post" enctype="multipart/form-data">
+  <label>Food Item:</label>
+  <input type="text" name="foodItem" required />
+  <label>Upload Ingredients List Image:</label>
+  <input type="file" name="image" accept="image/*" required />
+  <button type="submit">Analyze</button>
+</form>

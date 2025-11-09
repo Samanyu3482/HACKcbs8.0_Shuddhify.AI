@@ -1,0 +1,63 @@
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <div class="brand-logo">S</div>
+            <div class="brand-text">
+                <span class="brand-name">Shuddhify.AI</span>
+                <span class="brand-tagline" id="brandTagline"></span>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/items">Items</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/news">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/reports">Report</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/models">AI Models</a>
+                </li>
+            </ul>
+            
+            <div class="d-flex align-items-center gap-2">
+               
+                
+                <% if (isAuthenticated) { %>
+                    <!-- Logged in user -->
+                    <div class="dropdown">
+                        <button class="btn btn-user-profile dropdown-toggle" type="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <% if (user.picture) { %>
+                                
+                                <img src="<%= user.picture %>" alt="Profile" class="user-avatar">
+                                
+                            <% } else { %>
+                                <div class="user-avatar-placeholder">
+                                    <%= user.name ? user.name.charAt(0).toUpperCase() : 'U' %>
+                                </div>
+                            <% } %>
+                            <span class="user-name"><%= user.name || user.email %></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end user-dropdown" aria-labelledby="userDropdown">
+                            <li><a class="dropdown-item" href="/profile"><i class="bi bi-person-circle me-2"></i>Profile</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item text-danger" href="/logout"><i class="bi bi-box-arrow-right me-2"></i>Logout</a></li>
+                        </ul>
+                    </div>
+                <% } else { %>
+                    <!-- Not logged in -->
+                    <a href="/login"><button class="btn btn-login">Login</button></a>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</nav>

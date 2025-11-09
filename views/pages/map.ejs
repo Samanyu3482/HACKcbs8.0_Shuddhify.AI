@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <%- styles %>
+</head>
+<body>
+ 
+
+  <div class="map-container">
+    <div class="map-header">
+      <h1>🗺️ Adulteration Hotspot Map</h1>
+      <p>Explore reported food adulteration cases in your area</p>
+    </div>
+
+    <!-- Map Controls -->
+    <div class="map-controls">
+      <div class="controls-header">🔍 Filter Reports</div>
+      
+      <div class="filter-group">
+        <div class="filter-item">
+          <label for="filterCity">City</label>
+          <input type="text" id="filterCity" placeholder="Enter city name">
+        </div>
+        
+        <div class="filter-item">
+          <label for="filterFoodItem">Food Item</label>
+          <input type="text" id="filterFoodItem" placeholder="Search food item">
+        </div>
+        
+        <div class="filter-item">
+          <label for="filterSeverity">Severity</label>
+          <select id="filterSeverity">
+            <option value="">All Severities</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+        
+        <div class="filter-item">
+          <label for="filterStatus">Status</label>
+          <select id="filterStatus">
+            <option value="">All Statuses</option>
+            <option value="pending">Pending</option>
+            <option value="verified">Verified</option>
+            <option value="resolved">Resolved</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="btn-group">
+        <button class="btn btn-primary" id="applyFilters">Apply Filters</button>
+        <button class="btn btn-secondary" id="resetFilters">Reset</button>
+      </div>
+    </div>
+
+    <!-- Map -->
+    <div class="map-wrapper">
+      <div id="map"></div>
+    </div>
+
+    <!-- Legend -->
+    <div class="legend">
+      <h3>📊 Legend</h3>
+      <div class="legend-items">
+        <div class="legend-item">
+          <div class="legend-marker low"></div>
+          <span class="legend-text">Low Severity</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-marker medium"></div>
+          <span class="legend-text">Medium Severity</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-marker high"></div>
+          <span class="legend-text">High Severity</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-marker pending"></div>
+          <span class="legend-text">Pending</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-marker verified"></div>
+          <span class="legend-text">Verified</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%- scripts %>
+</body>
+</html>

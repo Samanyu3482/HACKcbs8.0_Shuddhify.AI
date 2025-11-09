@@ -1,0 +1,173 @@
+<% layout('layouts/boilerplate') %>
+
+  <div class="report-container">
+    <div class="report-header">
+      <h1>🚨 Report Food Adulteration</h1>
+      <p>Help keep our community safe by reporting adulterated food products</p>
+    </div>
+
+    <div class="report-card">
+      <form id="reportForm">
+        <!-- Food Item -->
+        <div class="form-group">
+          <label for="foodItem">
+            <i class="fas fa-apple-alt"></i> Food Item *
+          </label>
+          <input 
+            type="text" 
+            id="foodItem" 
+            name="foodItem" 
+            placeholder="e.g., Milk, Paneer, Spices" 
+            required
+          >
+        </div>
+
+        <!-- Adulteration Type -->
+        <div class="form-group">
+          <label for="adulterationType">
+            <i class="fas fa-exclamation-triangle"></i> Type of Adulteration *
+          </label>
+          <select id="adulterationType" name="adulterationType" required>
+            <option value="">Select type</option>
+            <option value="color_adulteration">Color Adulteration (Artificial colors)</option>
+            <option value="chemical_contamination">Chemical Contamination</option>
+            <option value="foreign_substance">Foreign Substance Mixed</option>
+            <option value="expired_product">Expired/Stale Product</option>
+            <option value="mislabeling">Mislabeling/False Claims</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <!-- Severity -->
+        <div class="form-group">
+          <label for="severity">
+            <i class="fas fa-thermometer-half"></i> Severity *
+          </label>
+          <select id="severity" name="severity" required>
+            <option value="">Select severity</option>
+            <option value="low">Low - Minor quality issue</option>
+            <option value="medium">Medium - Noticeable adulteration</option>
+            <option value="high">High - Serious health risk</option>
+          </select>
+        </div>
+
+        <!-- Description -->
+        <div class="form-group">
+          <label for="description">
+            <i class="fas fa-align-left"></i> Description *
+          </label>
+          <textarea 
+            id="description" 
+            name="description" 
+            rows="4" 
+            placeholder="Describe what you observed (max 500 characters)"
+            maxlength="500"
+            required
+          ></textarea>
+          <small class="char-count">0 / 500 characters</small>
+        </div>
+
+        <!-- Location Details -->
+        <div class="location-section">
+          <h3><i class="fas fa-map-marker-alt"></i> Location Details</h3>
+          
+          <div class="form-group">
+            <label for="shopName">Shop/Restaurant Name</label>
+            <input 
+              type="text" 
+              id="shopName" 
+              name="shopName" 
+              placeholder="e.g., ABC Store"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="address">Address *</label>
+            <input 
+              type="text" 
+              id="address" 
+              name="address" 
+              placeholder="Street address"
+              required
+            >
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="area">Area/Locality</label>
+              <input 
+                type="text" 
+                id="area" 
+                name="area" 
+                placeholder="e.g., Sector 15"
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="city">City *</label>
+              <input 
+                type="text" 
+                id="city" 
+                name="city" 
+                placeholder="e.g., Delhi"
+                required
+              >
+            </div>
+          </div>
+
+          <!-- Map for coordinates -->
+          <div class="form-group">
+            <label>Pin Location on Map *</label>
+            <div id="locationMap"></div>
+            <button type="button" class="btn-locate" id="getCurrentLocation">
+              <i class="fas fa-crosshairs"></i> Use My Current Location
+            </button>
+          </div>
+
+          <input type="hidden" id="lat" name="lat" required>
+          <input type="hidden" id="lng" name="lng" required>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-actions">
+          <button type="submit" class="btn btn-submit" id="submitBtn">
+            <i class="fas fa-paper-plane"></i> Submit Report
+          </button>
+          <button type="reset" class="btn btn-reset">
+            <i class="fas fa-redo"></i> Reset Form
+          </button>
+        </div>
+      </form>
+
+      <!-- Success Message -->
+      <div id="successMessage" class="alert alert-success" style="display: none;">
+        <i class="fas fa-check-circle"></i>
+        <div>
+          <strong>Report Submitted Successfully!</strong>
+          <p>Thank you for helping keep our community safe. Your report has been recorded.</p>
+          <button class="btn-view" onclick="window.location.href='/map'">
+            View on Map
+          </button>
+        </div>
+      </div>
+
+      <!-- Error Message -->
+      <div id="errorMessage" class="alert alert-error" style="display: none;">
+        <i class="fas fa-exclamation-circle"></i>
+        <div>
+          <strong>Submission Failed</strong>
+          <p id="errorText"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- My Reports Section -->
+    <div class="my-reports-section">
+      <h2><i class="fas fa-list"></i> My Previous Reports</h2>
+      <div id="myReportsList">
+        <p class="loading">Loading your reports...</p>
+      </div>
+    </div>
+  </div>
+
+

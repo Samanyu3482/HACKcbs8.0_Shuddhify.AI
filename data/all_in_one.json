@@ -1,0 +1,1457 @@
+[{
+  "name": "Apple",
+  "category": "Fruits",
+  "description": "Apples are nutritious fruits often coated with wax or chemicals to enhance shine and extend shelf life. They may also contain pesticide residues or artificial coloring to improve appearance.",
+  "adulteration_types": [
+    "Wax coating (paraffin or petroleum-based)",
+    "Artificial coloring",
+    "Chemical preservatives",
+    "Pesticide residues"
+  ],
+  "health_issues": [
+    "Headache and dizziness",
+    "Digestive irritation",
+    "Nausea and vomiting",
+    "Liver or kidney damage from chemical residues"
+  ],
+  "home_remedies": {
+    "Hot Water Test": "Soak apples in warm water for 10–15 minutes. If a greasy or white layer floats on the surface, wax coating is present.",
+    "Scratch Test": "Gently scratch the apple surface with a knife. A white or waxy residue on the blade indicates artificial coating.",
+    "Vinegar Wash Test": "Wash apples with a mix of vinegar and water (1:3 ratio). If oily residues appear, it may indicate wax or chemicals."
+  },
+  "lab_tests": {
+    "Spectrophotometric Analysis": "Detects wax or chemical residues present on the apple skin.",
+    "Gas Chromatography": "Used to detect pesticide contamination in apples.",
+    "Residue Analysis": "Identifies the amount and type of surface preservatives."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/_nOaC7tdf8E"
+  ],
+  "youtube_shorts_links": [
+    "https://youtube.com/shorts/h8qjVGueS3k?si=93cBGx5Ag2GoYj1v"
+  ],
+  "self_video_link": [
+    ""
+  ],
+  "prevention_tips": "Buy apples from trusted sources. Wash thoroughly with lukewarm water and baking soda before eating. Avoid overly shiny apples as they may have wax coating.",
+  "related_articles": [
+    "https://timesofindia.indiatimes.com/life-style/food-news/how-to-remove-wax-and-chemicals-from-apples/articleshow/103991725.cms",
+    "https://www.ndtv.com/food/how-to-remove-wax-coating-from-apples-simple-tips-2466752",
+    "https://www.hindustantimes.com/lifestyle/health/eating-wax-coated-apples-may-cause-health-issues-know-how-to-remove-it-101675925297077.html"
+  ],
+  "image_url": "https://wallpaperaccess.com/full/1351681.jpg",
+  "tags": [
+    "apple",
+    "fruit",
+    "wax coating",
+    "adulteration",
+    "pesticide",
+    "purity test",
+    "fssai",
+    "food safety"
+  ]
+}
+,
+{
+  "name": "Black Pepper",
+  "category": "Spices",
+  "description": "Black pepper is a widely used spice known for its strong aroma and pungent flavor. It is made from dried unripe berries of the pepper plant and often adulterated with similar-looking seeds or low-quality substances to increase weight and profit.",
+  "adulteration_types": [
+    "Papaya seeds",
+    "Black seeds (used tea leaves, mustard husk)",
+    "Dried berry seeds",
+    "Talc powder",
+    "Mineral oil coating"
+  ],
+  "health_issues": [
+    "Stomach irritation",
+    "Digestive problems",
+    "Liver and kidney issues due to mineral oil",
+    "Loss of appetite and nausea"
+  ],
+  "home_remedies": {
+    "Visual Inspection": "Pure pepper seeds are round and have a wrinkled surface. Adulterants like papaya seeds are larger, smoother, and lighter in color.",
+    "Float Test": "Put pepper seeds in water. Pure pepper sinks, while papaya seeds or other substitutes float.",
+    "Crush Test": "Crush a few peppercorns. Pure ones have a sharp, strong aroma; papaya seeds give a bland or slightly sweet smell.",
+    "Burn Test": "Burn a few pepper seeds. Pure ones emit a spicy smell, whereas fake seeds smell oily or foul.",
+    "Taste Test": "Pure pepper tastes sharp and pungent; adulterated ones are mild or bitter."
+  },
+  "lab_tests": {
+    "Microscopic Examination": "Used to differentiate pepper and papaya seed structure.",
+    "Ash Content Test": "Determines the presence of inorganic adulterants like dust or talc.",
+    "Chromatography Analysis": "Detects residues of mineral oils or chemical additives."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/oN3-2ewy7bU"
+  ],
+  "youtube_shorts_links": [],
+  "self_video_link": [],
+  "prevention_tips": "Buy whole peppercorns and grind them fresh at home. Avoid excessively shiny or oily pepper, as it may contain mineral oil. Always prefer FSSAI-certified brands and avoid loose, unpackaged black pepper.",
+  "related_articles": [
+    "https://timesofindia.indiatimes.com/city/delhi/huge-quantity-of-fake-cumin-black-pepper-seized/articleshow/104227715.cms",
+    "https://www.amarujala.com/gorakhpur/gorakhpur-spice-scam-massive-black-pepper-adulteration-racket-in-up-rs-40-crore-fake-spices-sold-monthly-2025-02-19",
+    "https://www.millenniumpost.in/delhi/adulteration-racket-busted-25-tonnes-of-spices-seized-535762"
+  ],
+  "image_url": "https://static.fanpage.it/wp-content/uploads/sites/22/2020/11/iStock-469858939.jpg",
+  "tags": [
+    "black pepper",
+    "papaya seeds",
+    "spices",
+    "adulteration",
+    "food safety",
+    "purity test",
+    "fssai"
+  ]
+},
+{
+  "name": "Butter",
+  "category": "Dairy",
+  "description": "Butter is a dairy product made by churning milk or cream. It is rich in fat and used in cooking, baking, and spreading. However, it is often adulterated with cheap fats, oils, or coloring agents to increase profit margins or mimic natural texture and color.",
+  "adulteration_types": [
+    "Addition of vanaspati or margarine",
+    "Mixing of refined vegetable oils",
+    "Artificial yellow coloring (metanil yellow)",
+    "Excess moisture content"
+  ],
+  "health_issues": [
+    "Digestive disorders",
+    "Cholesterol imbalance and heart risks",
+    "Liver toxicity due to synthetic dyes",
+    "Loss of nutritional value"
+  ],
+  "home_remedies": {
+    "Heat Test": "Take a teaspoon of butter and heat it in a spoon. Pure butter melts uniformly and turns light brown, while adulterated butter with vanaspati gives a dark residue or oily smell.",
+    "HCl Test": "Mix a small amount of butter with hydrochloric acid and add a pinch of sugar. A pink or red color indicates the presence of vanaspati or margarine.",
+    "Water Test": "Add a small piece of butter to warm water. Pure butter floats and melts slowly, while adulterated butter dissolves quickly and forms oily patches."
+  },
+  "lab_tests": {
+    "Butyro-Refractometer Test": "Determines the purity of butter fat by measuring refractive index to detect vanaspati or oil adulteration.",
+    "Fatty Acid Profiling": "GC analysis identifies substitution of dairy fat with vegetable oils.",
+    "Colorimetric Test": "Detects synthetic dyes like metanil yellow or tartrazine used for coloring."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/V4hGokV1Oh8"
+  ],
+  "youtube_shorts_links": [
+    ""
+  ],
+  "self_video_link": [
+    ""
+  ],
+  "prevention_tips": "Always buy butter from trusted, FSSAI-certified brands. Avoid butter that is overly yellow or has a waxy texture. Store it refrigerated and check for unusual smell or oily separation before use.",
+  "related_articles": [
+    "https://timesofindia.indiatimes.com/life-style/health-fitness/diet/how-to-detect-vanaspati-in-butter/articleshow/103228734.cms",
+    "https://www.indiatoday.in/india/story/fssai-issues-warning-over-adulterated-butter-2429078-2025-01-29",
+    "https://www.hindustantimes.com/lifestyle/health/how-to-check-butter-purity-at-home-101715490052651.html"
+  ],
+  "image_url": "https://th.bing.com/th/id/OIP.1d_0qmSWgGXFUTKQJ8lfEwHaD4?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+  "tags": [
+    "butter",
+    "dairy",
+    "vanaspati",
+    "adulteration",
+    "purity test",
+    "fssai",
+    "food safety"
+  ]
+},
+{
+  "name": "Capsicum (Bell Pepper)",
+  "category": "Vegetables",
+  "description": "Capsicum, commonly known as bell pepper or shimla mirch, is a colorful and nutritious vegetable rich in vitamins A and C. It is often adulterated or treated with harmful substances to enhance shine, freshness, or color.",
+  "adulteration_types": [
+    "Wax coating with non-edible mineral oil",
+    "Artificial coloring to intensify red or green hue",
+    "Chemical preservatives like calcium carbide or oxytocin spray",
+    "Surface polishing using paraffin or industrial wax"
+  ],
+  "health_issues": [
+    "Digestive irritation",
+    "Liver and kidney damage from mineral oil",
+    "Respiratory and hormonal issues from chemical residues",
+    "Skin allergies or rashes"
+  ],
+  "home_remedies": {
+    "Hot Water Test": "Dip capsicum in warm water for 2–3 minutes. If you notice an oily layer or white residue, it indicates wax or chemical coating.",
+    "Scratch Test": "Gently scratch the surface with a knife. If a white film or waxy residue appears, it’s likely treated with non-edible wax.",
+    "Soak Test": "Soak in lukewarm water with baking soda for 10 minutes to remove surface chemicals."
+  },
+  "lab_tests": {
+    "Chromatographic Analysis": "Used to identify and quantify pesticide residues on the surface of capsicum.",
+    "GC-MS Test": "Detects the presence of mineral oils and other harmful hydrocarbon compounds.",
+    "Surface Residue Analysis": "Checks for non-edible wax and artificial dye coatings using chemical reagents."
+  },
+  "youtube_links": [
+    
+  ],
+  "youtube_shorts_links": [
+    ""
+  ],
+  "self_video_link": [
+    ""
+  ],
+  "prevention_tips": "Choose capsicums that look natural, not overly shiny. Wash thoroughly in warm water mixed with salt or baking soda before use. Prefer organic or locally grown produce with FSSAI certification.",
+  "related_articles": [
+    "https://www.indiatoday.in/india/story/fssai-guidelines-on-fruit-and-vegetable-wax-coating-2358742-2023-03-16",
+    "https://timesofindia.indiatimes.com/life-style/health-fitness/diet/how-to-remove-pesticides-and-wax-from-vegetables/articleshow/108345678.cms",
+    "https://www.hindustantimes.com/lifestyle/health/how-to-clean-fruits-and-vegetables-to-remove-chemical-residue-101710276729090.html"
+  ],
+  "image_url": "https://tse1.mm.bing.net/th/id/OIP.PvuwaO9xZpYrS6WCbL1EIAHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
+  "tags": [
+    "capsicum",
+    "bell pepper",
+    "vegetables",
+    "adulteration",
+    "mineral oil",
+    "food safety",
+    "pesticide removal"
+  ]
+}
+,
+{
+  "name": "Paneer / Cheese",
+  "category": "Dairy",
+  "description": "Paneer (cottage cheese) and cheese are popular dairy products rich in protein and calcium. However, they are often adulterated with non-milk fats, starch, or harmful chemicals to reduce production costs and increase shelf life.",
+  "adulteration_types": [
+    "Addition of starch or maida to increase thickness",
+    "Use of synthetic milk or detergent-based milk",
+    "Mixing of non-edible oils or vanaspati in cheese",
+    "Use of formalin or urea as preservatives"
+  ],
+  "health_issues": [
+    "Gastrointestinal issues like cramps and diarrhea",
+    "Liver and kidney damage due to chemicals like formalin",
+    "Hormonal imbalance from synthetic milk",
+    "Food poisoning and nausea"
+  ],
+  "home_remedies": {
+    "Iodine Test": "Add a few drops of iodine to a paste made from paneer and water. A blue color indicates starch adulteration.",
+    "Oil Test": "Heat a small piece of paneer on a pan. If it releases excess oil or smells like vanaspati, it may contain non-dairy fats.",
+    "Smell and Texture Test": "Pure paneer has a fresh, milky aroma and soft texture. A rubbery or soapy feel indicates adulteration or detergent-based milk."
+  },
+  "lab_tests": {
+    "Starch Detection Test": "Iodometric analysis confirms the presence of added starch or maida.",
+    "Fat Composition Analysis": "Determines if non-dairy fats or vanaspati are mixed with milk fat using GC analysis.",
+    "Formalin and Urea Test": "Chemical analysis identifies toxic preservatives often added to enhance shelf life."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/x4LgLUo2R6A"
+  ],
+  "youtube_shorts_links": [
+    ""
+  ],
+  "self_video_link": [
+    ""
+  ],
+  "prevention_tips": "Buy paneer or cheese from reputed brands with FSSAI certification. Avoid unnaturally white or rubbery paneer. Always store dairy products under refrigeration and check for freshness before consumption.",
+  "related_articles": [
+    "https://www.fssai.gov.in/adulteration/paneer",
+    "https://timesofindia.indiatimes.com/life-style/food-news/how-to-check-if-paneer-is-pure-or-adulterated/articleshow/108321456.cms",
+    "https://www.indiatoday.in/food-drink/food/story/how-to-detect-adulteration-in-paneer-and-cheese-2415639-2024-08-10"
+  ],
+  "image_url": "https://tse4.mm.bing.net/th/id/OIP.VnOttNHitP3i8raIiaWt1QHaEn?w=620&h=387&rs=1&pid=ImgDetMain&o=7&rm=3",
+  "tags": [
+    "paneer",
+    "cheese",
+    "dairy",
+    "adulteration",
+    "starch test",
+    "food safety",
+    "formalin detection"
+  ]
+}
+,
+{
+  "name": "Chilli Powder",
+  "category": "Spices",
+  "description": "A vibrant red spice made from dried and ground red chillies, commonly used to add heat, flavor, and color to food. It can often be adulterated with artificial colors or fillers.",
+  "adulteration_types": [
+    "Brick powder",
+    "Salt powder",
+    "Artificial red dyes (Rhodamine B, Sudan I)",
+    "Talcum powder",
+    "Oil and grit impurities"
+  ],
+  "health_issues": [
+    "Liver and kidney damage due to synthetic dyes",
+    "Cancer risk from Sudan dye",
+    "Stomach irritation",
+    "Food poisoning or digestive discomfort"
+  ],
+  "home_remedies": {
+    "Water Test": "Mix a teaspoon of chilli powder in a glass of water. Pure chilli powder settles at the bottom; if the water turns red, it may contain artificial colors.",
+    "Oil Test": "Add a small amount of chilli powder to a spoon of oil. If it leaves colored streaks, synthetic dyes are likely present.",
+    "Paper Test": "Rub a pinch of chilli powder on white tissue or paper. If a bright red streak appears, the powder contains artificial coloring.",
+    "Float Test": "Sprinkle a small amount on water. If it floats with color spreading instantly, adulteration with artificial dye is suspected.",
+    "Magnifying Glass Test": "Inspect the powder; brick or sand particles look coarser and irregular compared to smooth chilli flakes."
+  },
+  "lab_tests": {
+    "Spectrophotometric Test": "Used to detect synthetic dyes like Sudan I or Rhodamine B in chilli powder samples.",
+    "Chromatography Test": "Helps identify chemical colorants such as Rhodamine B or other azo dyes.",
+    "Gravimetric Analysis": "Determines presence of brick dust, talc, or other mineral impurities."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/Ews2NNFV7GQ?si=nZuYAKvRbnbsllXj"
+  ],
+  "youtube_shorts_links": [
+    "https://youtube.com/shorts/GjoeRqJa1mQ?si=OVZm-i6z-kSlTbme"
+  ],
+  "self_video_link": [
+    "https://yourwebsite.com/videos/chilli_powder_test.mp4"
+  ],
+  "prevention_tips": "Avoid overly bright or shiny red chilli powder — natural chilli has a deep red, earthy tone. Purchase from reputed, FSSAI-certified brands. Prefer whole dried chillies and grind them at home for purity.",
+  "related_articles": [
+    "https://timesofindia.indiatimes.com/life-style/food-news/side-effects-of-red-chilli-powder-diarrhoea-heartburn-cancer-risks-and-more/articleshow/124889967.cms",
+    "https://www.business-standard.com/india-news/patanjali-foods-recalls-4-tons-of-red-chilli-powder-over-pesticide-residue-125012400871_1.html",
+    "https://the420.in/fssai-cracks-down-patanjali-recalls-red-chilli-powder-over-serious-safety-breach/",
+    "https://www.prameyanews.com/due-to-pesticide-concerns-fssai-orders-recall-of-patanjali-red-chilli-powder"
+  ],
+  "image_url": "https://tse3.mm.bing.net/th/id/OIP.ND_okirE4qP4kGF6SvDX4QHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  "tags": [
+    "chilli powder",
+    "sudan dye",
+    "rhodamine b",
+    "food safety",
+    "adulteration",
+    "spices",
+    "purity test"
+  ]
+}
+,
+{
+  "name": "Coffee Powder",
+  "category": "Beverages",
+  "description": "A brewed beverage made from roasted coffee beans. Adulterants like chicory, tamarind seed powder, or starch are added to reduce cost or increase weight.",
+  "adulteration_types": [
+    "Chicory powder",
+    "Tamarind seed powder",
+    "Starch",
+    "Caramel color"
+  ],
+  "health_issues": [
+    "Digestive problems",
+    "Acidity",
+    "Stomach pain",
+    "Nausea"
+  ],
+  "home_remedies": {
+    "Water Test": "Sprinkle a small amount of coffee powder on water. Pure coffee floats, while adulterated coffee with chicory or tamarind powder sinks quickly.",
+    "Starch Test": "Add a few drops of iodine solution to a paste of coffee and water. Blue color indicates starch adulteration.",
+    "Smell Test": "Pure coffee has a strong, pleasant aroma, while adulterated coffee smells dull or burnt."
+  },
+  "lab_tests": {
+    "Moisture Content Test": "Determines the level of moisture in the coffee powder to check for dilution or spoilage.",
+    "Iodine Test": "Used in laboratories to confirm the presence of starch adulteration.",
+    "Microscopic Examination": "Helps identify foreign organic matter such as tamarind or chicory powder."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/WGdPRa3z5Xo"
+  ],
+  "youtube_shorts_links": [
+    "https://youtube.com/shorts/Me2k2UuV99Q?si=0McbtGbFXk_cRUWI"
+  ],
+  "self_video_link": [
+    ""
+  ],
+  "prevention_tips": "Buy branded, sealed coffee powder with FSSAI certification. Avoid purchasing loose coffee from unverified vendors. Store in airtight containers away from moisture.",
+  "related_articles": [
+    "https://fssai.gov.in/adulteration/coffee",
+    "https://timesofindia.indiatimes.com/life-style/food-news/how-to-check-if-your-coffee-is-pure-or-mixed-with-chicory/articleshow/99164789.cms",
+    "https://www.thehindu.com/life-and-style/food/coffee-purity-and-common-adulterants/article68070112.ece"
+  ],
+  "image_url": "https://tse1.explicit.bing.net/th/id/OIP.9qYHSBr9L5LbmT-GY0dkKgHaFX?rs=1&pid=ImgDetMain&o=7&rm=3",
+  "tags": [
+    "coffee",
+    "beverages",
+    "adulteration",
+    "chicory",
+    "starch",
+    "purity test",
+    "fssai",
+    "food safety"
+  ]
+}
+,
+{
+  "name": "Soft Drinks / Cold Drinks",
+  "category": "Beverages",
+  "description": "Carbonated beverages that contain sugar, flavor, and color. Adulteration may include harmful chemicals or excess caffeine.",
+  "adulteration_types": [
+    "Excess phosphoric acid",
+    "Non-permitted colors",
+    "Artificial sweeteners (saccharin, aspartame)",
+    "Pesticide residues"
+  ],
+  "health_issues": [
+    "Tooth decay and bone weakening",
+    "Acidity and digestive issues",
+    "Obesity and diabetes",
+    "Liver damage"
+  ],
+  "home_remedies": {
+    "Smell and Taste": "An overly chemical or bitter taste indicates the presence of synthetic sweeteners.",
+    "Shake Test": "Excess fizz and a sharp acidic smell may indicate high carbonation and poor-quality ingredients."
+  },
+  "lab_tests": {
+    "pH Test": "Used to measure acidity levels in the drink.",
+    "Chemical Test": "Detects caffeine, artificial colors, and preservatives.",
+    "Gas Chromatography": "Helps identify chemical contaminants or pesticide residues."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/Sc8wrFvT1tA"
+  ],
+  "youtube_shorts_links": [
+    "https://youtube.com/shorts/QVcAY98s420?si=qTjVMAGa9T5-1l8F"
+  ],
+  "self_video_link": [
+    ""
+  ],
+  "prevention_tips": "Avoid excessive consumption of soft drinks. Prefer natural fruit-based or homemade beverages instead of carbonated drinks.",
+  "related_articles": [
+    "https://fssai.gov.in/adulteration/softdrinks",
+    "https://www.thehindu.com/sci-tech/health/soft-drink-safety-tests/article67178292.ece",
+    "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/how-soft-drinks-can-be-harmful-for-your-body/articleshow/101476325.cms"
+  ],
+  "image_url": "https://th.bing.com/th/id/R.8562637f0a11ea84313f62ab070aafe8?rik=%2fqZkO8xp0VjDEw&riu=http%3a%2f%2fbutt-karahi.com%2fwp-content%2fuploads%2f2024%2f03%2fCold-Drink-1.5-Ltr-Butt-Karahi-Waseem-Islamabad.jpg&ehk=cP8qIuIeeOiPIw5D3UX%2bNIQ0qAFtVpm4aSG3sGidT5Q%3d&risl=&pid=ImgRaw&r=0",
+  "tags": [
+    "soft drink",
+    "cold drink",
+    "beverage",
+    "adulteration",
+    "health risk",
+    "carbonated drinks"
+  ]
+}
+,
+{
+  "name": "Coriander Powder",
+  "category": "Spices",
+  "description": "A fragrant spice made by grinding dried coriander seeds, commonly used to add aroma and flavor to curries and dishes. It can be adulterated with fillers, husk powder, or artificial colors to increase bulk and enhance appearance.",
+  "adulteration_types": [
+    "Dung powder",
+    "Horse dung",
+    "Stone powder",
+    "Saw dust",
+    "Husk powder",
+    "Artificial green or yellow coloring agents"
+  ],
+  "health_issues": [
+    "Stomach pain and vomiting",
+    "Digestive tract infection",
+    "Liver disorders due to chemical colorants",
+    "Food poisoning and nausea"
+  ],
+  "home_remedies": {
+    "Water Test": "Add a teaspoon of coriander powder to a glass of water. Pure powder settles at the bottom, while adulterated powder may float due to sawdust or husk.",
+    "Smell Test": "Rub a small amount between palms. Pure coriander emits a strong, natural aroma; adulterated powder smells dull or chemical-like.",
+    "Color Test": "Pure coriander powder has a dull yellow-brown color. Bright green or lemon-yellow powder may indicate added colors.",
+    "Palm Test": "Rub between fingers; pure coriander feels slightly coarse, while adulterated feels very fine and powdery due to added fillers.",
+    "Burn Test": "Burn a small pinch. If it emits an unpleasant or chemical smell, it may contain synthetic color or sawdust."
+  },
+  "lab_tests": {
+    "Microscopic Analysis": "Used to detect plant husk, sawdust, or other foreign particles.",
+    "Spectrophotometric Test": "Helps detect the presence of artificial coloring agents.",
+    "Ash Value Test": "Determines inorganic adulteration such as stone or dust particles."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/Y4x0qYi0HgY"
+  ],
+  "youtube_shorts_links": [
+    "https://youtube.com/shorts/R-3jHiikb3Q?si=Q6WQZQeVJb6nrk0i"
+  ],
+  "self_video_link": [
+    ""
+  ],
+  "prevention_tips": "Avoid overly bright or uniform-colored coriander powder. Buy whole coriander seeds and grind them at home. Choose trusted, FSSAI-certified brands with natural aroma and color.",
+  "related_articles": [
+    "https://www.phytojournal.com/archives/2024.v13.i3.A.14938/identification-of-adulterant-present-in-coriander-powder-using-ftir-spectroscopy-and-chemical-method",
+    "https://timesofindia.indiatimes.com/life-style/food-news/how-to-check-if-your-coriander-powder-is-pure-at-home/articleshow/119875244.cms"
+  ],
+  "image_url": "https://cdn.shopify.com/s/files/1/1404/4695/products/TerraCorianderPowder_1_1024x1024.jpg?v=1472038443",
+  "tags": [
+    "coriander powder",
+    "spices",
+    "adulteration",
+    "sawdust",
+    "food safety",
+    "purity test",
+    "fssai"
+  ]
+}
+,
+{
+  "name": "Cumin Seeds",
+  "category": "Spices",
+  "description": "Cumin seeds are aromatic dried seeds from the Cuminum cyminum plant, widely used in Indian and global cuisines for their warm, earthy flavor. However, they are often adulterated with grass seeds, husks, or artificial colors to enhance appearance and weight.",
+  "adulteration_types": [
+    "Grass seeds",
+    "Husk particles",
+    "Stone dust",
+    "Lead chromate color",
+    "Charcoal powder",
+    "Dung particles"
+  ],
+  "health_issues": [
+    "Liver and kidney damage from chemical colorants",
+    "Food poisoning",
+    "Digestive irritation",
+    "Metal toxicity due to lead compounds"
+  ],
+  "home_remedies": {
+    "Visual Test": "Pure cumin seeds are brownish and have distinct ridges. Bright or shiny yellowish seeds may indicate lead chromate adulteration.",
+    "Water Test": "Drop a spoon of cumin seeds in water. Pure seeds sink, while light impurities or husk float.",
+    "Palm Rub Test": "Rub a few cumin seeds between your palms. If your hands turn yellow, it indicates the use of artificial coloring (lead chromate).",
+    "Smell Test": "Pure cumin emits a strong, warm aroma; adulterated ones have a faint or chemical smell.",
+    "Magnifying Glass Test": "Under magnification, grass seeds appear smoother and less ridged than real cumin seeds."
+  },
+  "lab_tests": {
+    "Lead Chromate Detection": "Detected using spectrophotometry or colorimetric analysis to confirm the presence of lead-based dyes.",
+    "Microscopic Examination": "Identifies foreign seeds, husk, or other impurities mixed with cumin seeds.",
+    "Total Ash Value Test": "Determines inorganic adulteration such as dust, sand, or stone powder."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/D1mW8ZOW1xs"
+  ],
+  "youtube_shorts_links": [
+    "https://youtube.com/shorts/GfHoxWr-0Bw?si=DAftRpuQ7JaF6EYV",
+    "https://youtube.com/shorts/iQadasP6h5c?si=1Z63z47eRGBvIFbw"
+  ],
+  "self_video_link": [""],
+  "prevention_tips": "Avoid overly bright or uniformly colored cumin seeds. Buy from trusted, FSSAI-certified sources. Prefer whole cumin seeds over pre-ground powder and store them in airtight containers away from moisture.",
+  "related_articles": [
+    "https://timesofindia.indiatimes.com/life-style/food-news/charcoal-dust-to-cement-common-adulterants-used-in-fake-jeera-cumin-and-how-to-do-purity-check/articleshow/120163544.cms",
+    "https://en.dailyqudrat.pk/28343/",
+    "https://www.slurrp.com/article/fake-jeera-racket-busted-in-mumbai-6-ways-to-identify-authentic-cumin-1706615829379",
+    "https://www.mid-day.com/mumbai/mumbai-news/article/thane-is-that-cumin-or-is-it-wood-in-your-jeera-rice-23332119"
+  ],
+  "image_url": "https://cdn.britannica.com/59/219359-050-662D86EA/Cumin-Spice.jpg",
+  "tags": [
+    "cumin",
+    "jeera",
+    "spices",
+    "lead chromate",
+    "adulteration",
+    "purity test",
+    "food safety",
+    "fssai"
+  ]
+}
+,
+{
+  "name": "Fruit Juices (Packaged)",
+  "category": "Beverages",
+  "description": "Packaged fruit juices often contain artificial colors, flavors, and preservatives instead of real fruit extract.",
+  "adulteration_types": [
+    "Synthetic colors and flavors",
+    "Sugar syrup",
+    "Artificial sweeteners",
+    "Chemical preservatives like benzoates"
+  ],
+  "health_issues": [
+    "Allergic reactions",
+    "Obesity",
+    "Blood sugar imbalance",
+    "Gastrointestinal irritation"
+  ],
+  "home_remedies": {
+    "Sediment Test": "Pour juice into a transparent glass and leave it for a few minutes. Natural juice leaves pulp residue at the bottom, while adulterated ones stay clear.",
+    "Smell Test": "Pure fruit juice has a natural, fresh aroma; synthetic or adulterated ones often smell candy-like or overly sweet.",
+    "Foam Test": "Shake the juice bottle. Excessive or long-lasting foam indicates presence of detergents or synthetic additives."
+  },
+  "lab_tests": {
+    "Chromatography Test": "Used to detect synthetic colors and artificial flavoring chemicals.",
+    "Brix Test": "Measures natural sugar concentration to identify added sugar syrup.",
+    "Preservative Test": "Chemical test for benzoates and sulfites commonly used in adulterated juices."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/4tPFi9X6U_U"
+  ],
+  "youtube_shorts_links": [],
+  "self_video_link": [""],
+  "prevention_tips": "Always read the ingredient label. Choose ‘100% juice’ with no added sugar or preservatives. Avoid overly bright or uniform-colored juices.",
+  "related_articles": [
+    "https://timesofindia.indiatimes.com/life-style/food-news/how-to-detect-artificial-flavours-and-colours-in-fruit-juices/articleshow/102558742.cms",
+    "https://www.hindustantimes.com/lifestyle/health/fssai-warns-against-misleading-fruit-juice-labels-check-before-you-buy-101688506892388.html",
+    "https://www.thehindu.com/sci-tech/health/fssai-crackdown-on-adulterated-fruit-juices/articleshow/122013804.cms"
+  ],
+  "image_url": "https://th.bing.com/th/id/R.ad257f9feace565ca3a8b918b2dacc67?rik=Xzt8XdrEvYBW7g&riu=http%3a%2f%2fstatic1.squarespace.com%2fstatic%2f54bf12d2e4b0f0d81bf74ee7%2ft%2f6160e320f497a361258fa8e2%2f1633739552080%2fFruit%2bjuice.jpg%3fformat%3d1500w&ehk=k9FCHMiTxGFrzyoaV0q83zm2gxfKLYhP67u3wRSHwPU%3d&risl=&pid=ImgRaw&r=0",
+  "tags": [
+    "fruit juice",
+    "beverages",
+    "sugar syrup",
+    "adulteration",
+    "fssai",
+    "food safety"
+  ]
+},
+{
+  "name": "Ghee / Butter",
+  "category": "Dairy / Fats",
+  "description": "Ghee and butter are rich dairy fats made from milk or cream. They are used for cooking, flavoring, and religious rituals. However, they are often adulterated with cheap oils, vanaspati, or animal fat to increase profit margins.",
+  "adulteration_types": [
+    "Vanaspati (hydrogenated vegetable oil)",
+    "Mineral oil",
+    "Animal body fat (tallow)",
+    "Detergent or starch (to improve texture)",
+    "Artificial flavoring or colorants"
+  ],
+  "health_issues": [
+    "Heart diseases due to trans fats from vanaspati",
+    "Digestive discomfort",
+    "Liver and kidney problems",
+    "Cholesterol imbalance",
+    "Food toxicity and long-term health damage"
+  ],
+  "home_remedies": {
+    "Iodine Test": "Mix 2 ml of melted ghee with iodine solution. A blue or purple color indicates starch or vanaspati adulteration.",
+    "Palm Test": "Rub a small amount of ghee on your palm. Pure ghee melts quickly with a pleasant aroma, while adulterated ghee feels greasy and sticky.",
+    "Refrigeration Test": "Keep ghee in the fridge for 30 minutes. Pure ghee solidifies uniformly, while vanaspati- or oil-adulterated ghee forms separate layers.",
+    "Heat Test": "Heat a spoonful of ghee. Pure ghee melts and turns brown, whereas adulterated ghee may leave white residues or excessive foam.",
+    "Taste & Smell": "Pure ghee has a rich, nutty aroma; adulterated ghee often smells oily or synthetic."
+  },
+  "lab_tests": {
+    "Baudouin Test": "Detects vanaspati adulteration through pink or red color formation.",
+    "Gas Chromatography": "Analyzes fatty acid profile to identify non-dairy fats or oil adulteration.",
+    "Reichert-Meissl Value": "Measures volatile fatty acid content to detect substitution with vegetable or animal fats.",
+    "Iodine Value Test": "Determines the degree of unsaturation in fats to check for oil adulteration."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/t9hzsVpejik?si=E6A3fxoQxsgPniM2"
+  ],
+  "youtube_shorts_links": [],
+  "self_video_link": [
+    "https://yourwebsite.com/videos/ghee_test.mp4"
+  ],
+  "prevention_tips": "Purchase ghee or butter only from trusted, FSSAI-certified brands. Avoid products that are unnaturally white or have a strong artificial smell. Store in a cool, dry place away from sunlight to prevent rancidity.",
+  "related_articles": [
+    "https://fssai.gov.in/adulteration/ghee",
+    "https://www.thehindu.com/sci-tech/health/how-to-detect-adulteration-in-ghee/article67192069.ece",
+    "https://timesofindia.indiatimes.com/life-style/food-news/how-to-test-purity-of-ghee-at-home/articleshow/101662498.cms"
+  ],
+  "image_url": "https://th.bing.com/th/id/R.1d50c6fe59754c3c8ba3d9a4dfd6b1b8?rik=Ycr8pr3FilThZQ&riu=http%3a%2f%2fwww.dubaistandard.com%2fwp-content%2fuploads%2fghee_898.jpg&ehk=uUGeXFsAq8qKLZfsg9LrW5NOy91wJ5hf%2fARjJXYqEy8%3d&risl=&pid=ImgRaw&r=0",
+  "tags": [
+    "ghee",
+    "butter",
+    "vanaspati",
+    "adulteration",
+    "dairy fats",
+    "purity test",
+    "fssai",
+    "cooking oil"
+  ]
+}
+,
+{
+  "name": "Grapes",
+  "category": "Fruits",
+  "description": "Grapes are commonly consumed fresh or used to make juice and wine. They are often adulterated with chemical preservatives or contaminated with pesticide residues to increase shelf life and enhance appearance.",
+  "adulteration_types": [
+    "Chemical preservatives like sulfur dioxide",
+    "Artificial coloring to enhance green/purple tone",
+    "Pesticide residues",
+    "Wax coating for shine"
+  ],
+  "health_issues": [
+    "Respiratory irritation",
+    "Allergic reactions",
+    "Digestive discomfort",
+    "Long-term toxin buildup from pesticides"
+  ],
+  "home_remedies": {
+    "Baking Soda Wash": "Soak grapes in a mixture of water and baking soda for 15–20 minutes to remove wax and surface chemicals.",
+    "Vinegar Rinse Test": "Dip grapes in a 1:3 vinegar-water solution. If foam or bubbles appear, it may indicate chemical preservatives.",
+    "Warm Water Soak": "Immerse grapes in warm water; if a white film appears on the surface, it may be wax or chemical residue."
+  },
+  "lab_tests": {
+    "Chromatographic Analysis": "Detects pesticide residues and synthetic chemicals used for preservation.",
+    "Spectrophotometric Test": "Identifies coloring agents or wax coatings on grape skin.",
+    "Residue Analysis": "Determines the concentration of sulfur dioxide or other preservatives."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/m3W7o63lA3w"
+  ],
+  "youtube_shorts_links": [
+    "https://youtube.com/shorts/E6E2K_9x6rY?si=mxr1v5TgFzLMgEj8"
+  ],
+  "self_video_link": [
+    ""
+  ],
+  "prevention_tips": "Always wash grapes thoroughly under running water before eating. Prefer organic or locally sourced grapes. Soaking grapes in baking soda or vinegar solution helps remove most residues.",
+  "related_articles": [
+    "https://timesofindia.indiatimes.com/life-style/health-fitness/diet/how-to-remove-pesticides-from-grapes/articleshow/106487238.cms",
+    "https://www.hindustantimes.com/lifestyle/health/wash-grapes-properly-to-remove-pesticides-and-chemicals-101674940786197.html",
+    "https://www.ndtv.com/food/how-to-remove-pesticide-residues-from-fruits-like-grapes-2471783"
+  ],
+  "image_url": "https://tse4.mm.bing.net/th/id/OIP.QcjDKfKuGp8MDOLgQQnVRQHaEG?rs=1&pid=ImgDetMain&o=7&rm=3",
+  "tags": [
+    "grapes",
+    "fruit",
+    "pesticide",
+    "wax coating",
+    "adulteration",
+    "preservatives",
+    "fssai",
+    "food safety"
+  ]
+}
+,
+{
+  "name": "Green Peas",
+  "category": "Vegetables",
+  "description": "Green peas are a popular vegetable rich in protein and fiber. However, they are often adulterated with unsafe substances such as artificial coloring agents or imitation peas made from harmful materials to enhance appearance or shelf life.",
+  "adulteration_types": [
+    "Artificial green coloring (malachite green)",
+    "Imitation peas made from clay or plastic resin",
+    "Hard yellow peas dyed green",
+    "Metanil yellow dye contamination"
+  ],
+  "health_issues": [
+    "Food poisoning",
+    "Vomiting and diarrhea",
+    "Liver and kidney damage from toxic dyes",
+    "Neurological disorders with prolonged exposure"
+  ],
+  "home_remedies": {
+    "Boil Test": "Boil a handful of peas in water. If the water turns green, they are likely dyed with malachite green or synthetic color.",
+    "Rub Test": "Rub a few peas on a moist cotton ball or tissue; if it stains green, it indicates artificial coloring.",
+    "Soak Test": "Soak peas in water for 30 minutes. Pure peas retain their color, while adulterated ones lose color or release dye."
+  },
+  "lab_tests": {
+    "Spectrophotometric Analysis": "Used for detecting malachite green dye adulteration.",
+    "Chromatographic Test": "Helps identify the presence of metanil yellow coloring agents.",
+    "Microscopic Examination": "Determines texture and pigment granules to confirm artificial dyes."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/l4Q5n6CqI0w"
+  ],
+  "youtube_shorts_links": [
+    ""
+  ],
+  "self_video_link": [
+    ""
+  ],
+  "prevention_tips": "Buy peas from trusted, FSSAI-certified vendors. Avoid peas that appear unnaturally bright or shiny. Prefer frozen peas from reputed brands over loose peas from open markets.",
+  "related_articles": [
+    "https://www.hindustantimes.com/india-news/fssai-warns-against-malachite-green-dye-in-green-peas-101712059492727.html",
+    "https://www.indiatoday.in/india/story/green-peas-adulteration-malachite-green-harmful-effect-2449122-2025-01-12",
+    "https://timesofindia.indiatimes.com/life-style/health-fitness/diet/common-food-adulteration-in-vegetables/articleshow/102983403.cms"
+  ],
+  "image_url": "https://th.bing.com/th/id/OIP.xOEghPCYFopqDAmzPcvVJQHaE8?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+  "tags": [
+    "green peas",
+    "vegetables",
+    "malachite green",
+    "food adulteration",
+    "fssai",
+    "vegetable safety",
+    "purity test"
+  ]
+}
+
+,
+
+
+{
+  "name": "Honey",
+  "category": "Natural Sweetener",
+  "description": "A sweet viscous liquid produced by bees, commonly used as a natural sweetener and for medicinal purposes.",
+  "adulteration_types": [
+    "Sugar syrup",
+    "Jaggery solution",
+    "Molasses",
+    "Glucose"
+  ],
+  "health_issues": [
+    "High blood sugar",
+    "Obesity",
+    "Digestive discomfort"
+  ],
+  "home_remedies": {
+    "water_test": "Add honey to a glass of water — pure honey settles at the bottom, adulterated dissolves quickly.",
+    "blotting_paper_test": "Drop honey on blotting paper — pure honey will not spread or get absorbed.",
+    "burn_test": "Dip a cotton wick or matchstick in honey and try to light it — if it burns easily, the honey is pure (presence of water prevents it from lighting).",
+    "rub_test": "Rub a small drop between fingers — pure honey feels sticky but not watery.",
+    "honeycomb_pattern_test": "Take a small amount of honey on a plate and pour some water — if a honeycomb or hexagonal pattern appears, it indicates pure honey.",
+    "thumb_test": "Place a small drop of honey on your thumb; if it stays intact and doesn’t spread, the honey is pure. Adulterated honey spreads due to added water or sugar syrup."
+  },
+  "lab_tests": {
+    "ftir_analysis": "FTIR analysis for detecting sugar adulterants using infrared absorption patterns.",
+    "hmf_test": "HMF (Hydroxymethylfurfural) test used to identify overheating or aging in honey.",
+    "nmr_test": "NMR (Nuclear Magnetic Resonance) test to detect advanced sugar adulteration and trace the source."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/aey2vyV3vWc?si=vMI8UmtS5JnhE6Y_"
+  ],
+  "youtube_shorts_links": [
+    "https://youtube.com/shorts/PDVlYV1FTio?si=-35_3VT9uDgp8D20",
+    "https://youtube.com/shorts/RYcIx9AsHaM?si=43l59intWhyrjQmK"
+  ],
+  "self_video_link": [
+    ""
+  ],
+  "prevention_tips": "Purchase only branded, FSSAI-certified honey with proper labeling. Avoid overly clear, watery, or extremely cheap honey. Support local beekeepers to ensure authenticity.",
+  "related_articles": [
+    "https://www.cseindia.org/fssai-has-not-taken-strong-decisive-and-public-action-on-honey-adulteration-says-cse-10663",
+    "https://timesofindia.indiatimes.com/city/chandigarh/beekeepers-protest-over-unfair-pricing-of-honey-and-adulteration-concerns/articleshow/118856088.cms",
+    "https://www.theguardian.com/business/2024/nov/30/beekeepers-halt-honey-awards",
+    "https://www.business-standard.com/article/companies/leading-honey-brands-fail-adulteration-test-by-foreign-lab-says-cse-120120201197_1.html",
+    "https://www.thehindu.com/news/national/telangana/man-held-in-kanchanbagh-for-selling-adulterated-honey/article70174047.ece",
+    "https://www.msn.com/en-in/health/wellness/himachal-number-of-bee-colonies-goes-up-globally-as-honey-s-health-benefits-recognised/ar-AA1OCYIq?ocid=BingNewsVerp"
+  ],
+  "image_url": "https://5.imimg.com/data5/UD/MB/MY-42635865/natural-honey-500x500.jpg",
+  "tags": [
+    "honey",
+    "sugar syrup",
+    "molasses",
+    "adulteration",
+    "sweetener",
+    "purity test",
+    "food safety"
+  ]
+}
+,
+
+{
+  "name": "Ice Cream",
+  "category": "Desserts",
+  "description": "A frozen dessert made from milk, cream, sugar, and flavorings. It is often adulterated with non-dairy fats, synthetic colors, and artificial flavors.",
+  "adulteration_types": [
+    "Detergents and washing powder (for froth)",
+    "Synthetic milk or non-dairy fat",
+    "Artificial essence or flavor",
+    "Textile starch or gelatin"
+  ],
+  "health_issues": [
+    "Digestive issues",
+    "Skin allergies",
+    "Respiratory irritation",
+    "Food poisoning from contaminated milk"
+  ],
+  "home_remedies": {
+    "Smell Test": "Pure ice cream has a natural flavor; strong synthetic aroma indicates artificial essence.",
+    "Melting Test": "Pure ice cream melts uniformly, while adulterated one leaves white residue or foam.",
+    "Taste Test": "A soapy or chemical taste indicates detergent or synthetic fat presence."
+  },
+  "lab_tests": {
+    "Fat Analysis": "Determines non-dairy fats using fat content testing.",
+    "Detergent and Starch Test": "Chemical reagents used to identify presence of detergent or starch.",
+    "Chromatography Test": "Used to detect synthetic colors and artificial flavoring compounds."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/bZ-0-pfgdkA?si=h7NjdfVnkO9e_Plw"
+  ],
+  "youtube_shorts_links": [
+    "https://youtube.com/shorts/3XcD00WZKlU?si=o1k9qc-xx26zEcWE"
+  ],
+  "self_video_link": [
+    ""
+  ],
+  "prevention_tips": "Buy ice cream from trusted brands and check FSSAI number. Avoid those with too-bright colors or overly strong flavor.",
+  "related_articles": [
+    "https://timesofindia.indiatimes.com/life-style/food-news/detergent-powder-and-bone-weakening-chemicals-found-in-ice-cream-and-cool-drinks-in-bengaluru/articleshow/119868003.cms",
+    "https://m.economictimes.com/news/new-updates/you-might-be-consuming-detergent-powder-chemicals-while-eating-ice-cream-in-karnataka/articleshow/119892616.cms",
+    "https://www.tribuneindia.com/news/ludhiana/ice-cream-or-frozen-dessert-check-before-you-eat/"
+  ],
+  "image_url": "https://th.bing.com/th/id/OIP.fLP_yLSkDiXJKolfH-Vf-gHaHa?w=182&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+  "tags": [
+    "ice cream",
+    "dessert",
+    "adulteration",
+    "milk fat",
+    "fssai",
+    "purity test"
+  ]
+}
+,
+{
+  "name": "Milk",
+  "category": "Dairy",
+  "description": "A white nutritious liquid produced by mammals, commonly consumed as a beverage or used in cooking. Milk is an essential source of calcium and protein but is often adulterated to increase volume or shelf life.",
+  "adulteration_types": [
+    "Water",
+    "Detergent",
+    "Urea",
+    "Starch",
+    "Synthetic milk",
+    "Formalin"
+  ],
+  "health_issues": [
+    "Digestive problems",
+    "Kidney damage",
+    "Food poisoning",
+    "Nausea and vomiting",
+    "Gastrointestinal irritation",
+    "Toxic chemical exposure"
+  ],
+  "home_remedies": {
+    "Boil Test": "Boil milk; if detergent is present, it forms thick soapy foam instead of normal cream.",
+    "Iodine Test": "Mix a few drops of iodine with milk; blue color indicates starch adulteration.",
+    "Smell Test": "Urea-adulterated milk has a pungent or ammonia-like odor.",
+    "Rub Test": "Take a drop of milk between fingers; pure milk feels smooth while adulterated milk feels soapy.",
+    "Heat Test": "When heated, pure milk leaves a brown residue; synthetic milk leaves no residue or a whitish layer.",
+    "Lemon Test": "Add a few drops of lemon juice to warm milk; no curdling indicates synthetic or adulterated milk.",
+    "Flow Test": "Drop milk on a smooth surface; fast flow means water is added.",
+    "Shake Test": "Shake milk with equal water; lasting foam means detergent adulteration.",
+    "Turmeric Test": "Rub a drop of milk on turmeric; red color shows detergent or alkali adulteration."
+  },
+  "lab_tests": {
+    "Lactometer Test": "Used to check for dilution with water by measuring milk density.",
+    "Urea Detection Test": "Identifies presence of urea using chemical reagents.",
+    "Formalin Test": "Uses chromotropic acid method to detect formalin contamination.",
+    "Fat Content Analysis (Gerber Method)": "Measures fat concentration to confirm natural milk content."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/Np79eniPwDg?si=oEbJd39Be1e7LOnx",
+    "https://youtu.be/4Ljlq_CmAnk?si=U_1T5dkzdFTwQCC4"
+  ],
+  "youtube_shorts_links": [
+    "https://youtube.com/shorts/rEHEQx88moM?si=qdTVFuxPXOHQ5kM8",
+    "https://youtube.com/shorts/HDnwNBQ5fJU?si=hSHpksnlyJEFjftn",
+    "https://youtube.com/shorts/73X6cuGeoCg?si=G0M16zyC5cX5a9F4",
+    "https://youtube.com/shorts/7dEycSYJ1Lk?si=N4gC128EQ0HHaKI2"
+  ],
+  "self_video_link": [],
+  "prevention_tips": "Always buy milk from certified dairy brands and check for FSSAI label. Avoid unpackaged milk from unreliable vendors. Store milk under refrigeration and boil before use.",
+  "related_articles": [
+    "https://timesofindia.indiatimes.com/city/hubballi/milk-adulteration-affects-haveri-kmfs-reputation/articleshow/120022765.cms",
+    "https://timesofindia.indiatimes.com/life-style/food-news/50-adulterated-milk-packets-seized-in-odisha-5-milk-alternatives-rich-in-calcium/articleshow/120934294.cms",
+    "https://www.outlookbusiness.com/news/penalty-imposed-of-3672-crore-in-8815-fake-milk-cases-in-fy25-govt",
+    "https://www.timesnownews.com/lifestyle/food/news/500-litres-of-adulterated-milk-seized-in-up-5-tips-to-check-if-your-milk-is-real-article-116216932",
+    "https://timesofindia.indiatimes.com/city/bareilly/synthetic-milk-factory-busted-in-sambhal/articleshow/120526525.cms",
+    "https://www.businesstoday.in/latest/trends/story/watch-video-up-trader-arrested-for-producing-500-litres-of-fake-milk-with-just-1-litre-of-chemicals-456748-2024-12-09",
+    "https://timesofindia.indiatimes.com/life-style/food-news/massive-fake-milk-and-paneer-factory-discovered-in-bulandshahr/articleshow/116166432.cms",
+    "https://scroll.in/latest/931416/madhya-pradesh-government-to-invoke-nsa-against-those-involved-in-milk-adulteration-says-minister"
+  ],
+  "image_url": "https://tse2.mm.bing.net/th/id/OIP.K8CvAVsmbT6ALRQEkEA2CgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  "tags": [
+    "milk",
+    "urea",
+    "detergent",
+    "formalin",
+    "starch",
+    "synthetic milk",
+    "dairy",
+    "adulteration",
+    "fssai"
+  ]
+}
+,
+
+
+{
+  "name": "Mustard Oil",
+  "category": "Oils",
+  "description": "A commonly used cooking oil extracted from mustard seeds. Often adulterated with argemone oil or cheaper vegetable oils.",
+  "adulteration_types": [
+    "Argemone oil",
+    "Mineral oil",
+    "Other vegetable oils"
+  ],
+  "health_issues": [
+    "Glaucoma (eye disease)",
+    "Liver damage",
+    "Skin irritation",
+    "Heart complications"
+  ],
+  "home_remedies": {
+    "nitric_acid_test": "Mix a few drops of nitric acid with mustard oil. A reddish-brown color indicates argemone oil adulteration.",
+    "freezing_test": "Keep oil in the refrigerator. Pure mustard oil thickens, but adulterated oil remains thin.",
+    "smell_test": "Pure mustard oil has a sharp pungent smell; odorless oil indicates adulteration."
+  },
+  "lab_tests": {
+    "argemone_oil_test": "Argemone oil test using paper chromatography.",
+    "specific_gravity_refractive_index_test": "Measure the specific gravity and refractive index to detect purity variations."
+  },
+  "youtube_links": ["https://www.youtube.com/embed/TkIgtGWlBsI?si=naoaOmFx_KsyhaaX"],
+  "youtube_shorts_links": ["https://youtube.com/shorts/B3kEa92QCwA?si=0YuWy2ZtOK1js_tR"],
+  "self_video_link": [],
+  "prevention_tips": "Purchase mustard oil from certified brands. Avoid oil with a very bright or clear yellow color, as it may contain artificial coloring or argemone oil.",
+  "related_articles": [
+    "https://www.hindustantimes.com/cities/chandigarh-news/adulterated-mustard-oil-behind-3-dropsy-deaths-in-nabha-report-101728847891766.html",
+"https://timesofindia.indiatimes.com/city/noida/court-fines-2-for-selling-adulterated-mustard-oil-in-ghaziabad/articleshow/122912688.cms"
+  ],
+  "image_url": "https://5.imimg.com/data5/SELLER/Default/2024/2/394474913/BX/RY/PT/121290843/1-l-organiq-gold-kachi-ghani-mustard-oil.jpeg",
+  "tags": [
+    "mustard oil",
+    "argemone oil",
+    "oil adulteration",
+    "cooking oil",
+    "food safety"
+  ]
+}
+,
+
+{
+  "name": "Pickles",
+  "category": "Preserved Foods",
+  "description": "Pickles are preserved vegetables or fruits in salt and oil. Adulteration includes low-quality oil, artificial colors, or preservatives.",
+  "adulteration_types": [
+    "Mineral oil",
+    "Non-edible coloring agents",
+    "Spoiled vegetables"
+  ],
+  "health_issues": [
+    "Liver toxicity",
+    "Stomach irritation",
+    "Food poisoning"
+  ],
+  "home_remedies": {
+    "Smell Test": "Mineral oil gives a kerosene-like odor, unlike natural vegetable oil smell.",
+    "Color Observation": "Overly bright or unnatural colors indicate the use of synthetic dyes or non-edible coloring agents."
+  },
+  "lab_tests": {
+    "Mineral Oil Test": "Chemical analysis using sulfuric acid to detect presence of mineral oils.",
+    "Microbial Test": "Determines contamination or spoilage caused by bacterial growth."
+  },
+  "youtube_links": [
+     "https://www.youtube.com/embed/7FSsrDAOiGQ"
+  ],
+  "youtube_shorts_links": [null],
+  "self_video_link": [],
+  "prevention_tips": "Use homemade pickles or buy from reputed, FSSAI-certified brands. Avoid pickles that look excessively oily, sticky, or have overly bright colors.",
+  "related_articles": [
+    "https://fssai.gov.in/adulteration/pickles",
+    "https://timesofindia.indiatimes.com/life-style/food-news/how-to-check-if-your-pickle-is-adulterated/articleshow/101345312.cms",
+    "https://www.dailypioneer.com/2024/india/fssai-issues-warning-over-adulterated-pickles-containing-mineral-oil.html"
+  ],
+  "image_url": "https://tse2.mm.bing.net/th/id/OIP.lnCvM7qsDOhuTTGZ2xgjggHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+  "tags": [
+    "pickle",
+    "preserved food",
+    "oil",
+    "adulteration",
+    "food safety",
+    "fssai"
+  ]
+}
+,
+
+{
+  "name": "Pulses (Dal)",
+  "category": "Grains",
+  "description": "Common protein-rich legumes like arhar, moong, or masoor dal. They are often adulterated with coloring agents or polished with harmful substances.",
+  "adulteration_types": [
+    "Polishing agents (mineral oil, soapstone)",
+    "Artificial colors",
+    "Kesari dal (Lathyrus sativus) mixed in"
+  ],
+  "health_issues": [
+    "Paralysis (from Kesari dal)",
+    "Digestive issues",
+    "Liver and kidney damage"
+  ],
+  "home_remedies": {
+    "water_test": "Water Test — colored dal releases dye in water, indicating artificial coloring.",
+    "magnifying_glass_test": "Magnifying Glass Test — Kesari dal has flat edges unlike rounded toor dal, helping to identify adulteration."
+  },
+  "lab_tests": {
+    "microscopic_test": "Microscopic test for Kesari dal to detect the presence of Lathyrus sativus.",
+    "chromatography_test": "Chromatography test to identify artificial colors or chemical residues."
+  },
+  "youtube_links": ["https://www.youtube.com/embed/yJl-44xb2cI?si=t2GcRoSIL04WldCo"],
+  "youtube_shorts_links": ["https://youtube.com/shorts/ei4Zpy26v7Q?si=22KV-4Zdoj6es2tR"],
+  "self_video_link": [],
+  "prevention_tips": "Buy unpolished dals from certified stores. Avoid brightly colored lentils.",
+  "related_articles": [
+    "https://timesofindia.indiatimes.com/life-style/food-news/cancer-causing-adulteration-in-black-dal-horrifying-video-goes-viral/articleshow/115960267.cms",
+"https://www.global-agriculture.com/india-region/toor-dal-adulteration-raises-serious-health-concerns-in-bangalore",
+"https://indianexpress.com/article/india/india-news-india/odisha-raid-to-check-adulteration-of-pulses-with-toxic-seeds-4390274/"
+  ],
+  "image_url": "https://chrysalishigh.com/wp-content/uploads/2024/01/pulses.jpg",
+  "tags": ["pulses", "dal", "kesari dal", "adulteration", "protein"]
+}
+,
+{
+  "name": "Rice",
+  "category": "Grains",
+  "description": "A staple grain consumed worldwide. It may be adulterated with plastic rice, stones, or chemically polished grains to increase weight or appearance.",
+  "adulteration_types": [
+    "Plastic rice",
+    "Stone pieces",
+    "Polished rice with glucose or talc"
+  ],
+  "health_issues": [
+    "Digestive blockage",
+    "Stomach pain",
+    "Toxic chemical accumulation"
+  ],
+  "home_remedies": {
+    "Burn Test": "Burn a few rice grains; if they emit a burning plastic smell or melt, it indicates adulteration with plastic or synthetic material.",
+    "Float Test": "Add rice to a bowl of water; plastic or synthetic rice may float while pure rice sinks.",
+    "Boil Test": "Boil rice in water; if it remains hard or forms a sticky layer, it may be adulterated.",
+    "Smash Test": "Crush a grain between fingers; pure rice turns into powder, adulterated may feel rubbery."
+  },
+  "lab_tests": {
+    "Spectroscopy Test": "Detects presence of synthetic polymers or plastic compounds in rice grains.",
+    "Microscopic Examination": "Helps identify artificial coatings, surface irregularities and foreign matter in rice.",
+    "Ash Content Test": "Measures inorganic residue from contaminants like stone dust, talc or chemical coatings."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/tJw3UUv1-NM",
+    "https://www.youtube.com/embed/hz7ru9P-U7M?si=gs1D7FgmIGEF9vxu" 
+  ],
+  "youtube_shorts_links": [],
+  "self_video_link": [""],
+  "prevention_tips": "Buy rice from trusted, FSSAI-certified brands. Avoid rice that looks unusually glossy, very light in weight, or has identical grain size. Rinse and inspect before cooking.",
+  "related_articles": [
+    "https://timesofindia.indiatimes.com/life-style/food-news/stop-eating-fake-rice-simple-tricks-to-detect-adulteration-fast/articleshow/124335597.cms",
+    "https://www.thenewsminute.com/news/fact-check-there-such-thing-called-plastic-rice-63356",
+    "https://timesofindia.indiatimes.com/city/hyderabad/plastic-rice-cooks-up-a-storm-in-andhra-pradesh-telangana/articleshow/59028215.cms"
+  ],
+  "image_url": "https://static.vecteezy.com/system/resources/previews/037/349/469/non_2x/ai-generated-a-handful-of-long-grain-white-rice-spills-out-on-the-wooden-table-food-light-natural-colors-high-quality-ai-generative-photo.jpg",
+  "tags": [
+    "rice",
+    "plastic rice",
+    "grain",
+    "adulteration",
+    "purity test"
+  ]
+}
+,
+
+{
+  "name": "Salt",
+  "category": "Condiments",
+  "description": "A crystalline mineral primarily composed of sodium chloride, used for seasoning. It can be adulterated with chalk powder, sand, or white powder.",
+  "adulteration_types": [
+    "Chalk powder",
+    "White powdered stone",
+    "Sand or dust particles"
+  ],
+  "health_issues": [
+    "Kidney stones",
+    "Digestive issues",
+    "Decreased iodine absorption"
+  ],
+  "home_remedies": {
+    "Water Test": "Pure salt dissolves completely in water, while adulterated salt leaves residue at the bottom.",
+    "Iodine Test": "Apply iodine on a salt paste; a blue color indicates the presence of starch impurity."
+  },
+  "lab_tests": {
+    "Gravimetric analysis for insoluble materials": "Used to determine the amount of undissolved substances like chalk or sand in salt samples.",
+    "Iodine content test": "Measures the iodine concentration to confirm proper fortification and detect dilution or adulteration."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/x3CWvI_AWkU?si=DRoGeSIoKXQ2qPMX"
+  ],
+  "youtube_shorts_links": [
+    "https://youtube.com/shorts/KxIwa8ZM9TU?si=UJR4Om-kwXwcUaky",
+    "https://youtube.com/shorts/2_PnJuphVKo?si=XqIGARD9gwN2F7rS",
+    "https://youtube.com/shorts/A5JKYwSDVz0?si=OoLEHcqIStCo5824"
+  ],
+  "self_video_link": [
+    "https://yourwebsite.com/videos/salt_test.mp4"
+  ],
+  "prevention_tips": "Buy iodized, packaged salt with an FSSAI label. Avoid loose, discolored, or damp salt.",
+  "related_articles": [
+    "https://www.livehindustan.com/uttarakhand/rudrapur/story-controversy-over-adulterated-government-salt-in-rudrapur-samples-sent-for-testing-201757431262764.html",
+    "https://www.abplive.com/states/madhya-pradesh/madhya-pradesh-sagar-fake-rock-salt-factory-busted-iknow-how-adulteration-was-being-done-ann-2090705",
+    "https://amanblogs.com/2024/05/26/salty-secrets/"
+  ],
+  "image_url": "https://www.southernliving.com/thmb/EmvwuozrEjqzpPVRhY5PnLz1vuE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1348072128-8af35c603a394f1db3bfe59e37f5357c.jpg",
+  "tags": [
+    "salt",
+    "adulteration",
+    "iodine",
+    "condiment",
+    "purity test"
+  ]
+}
+,
+{
+  "name": "Sugar",
+  "category": "Condiments",
+  "description": "Common sweetener derived from sugarcane or beet. Adulteration may involve chalk powder, washing soda, or other insoluble substances.",
+  "adulteration_types": [
+    "Chalk powder",
+    "Washing soda",
+    "Sugar substitutes"
+  ],
+  "health_issues": [
+    "Acidity",
+    "Kidney stones",
+    "Digestive discomfort"
+  ],
+  "home_remedies": {
+    "Water Test": "Pure sugar dissolves completely in water; chalk or sand settles at bottom."
+  },
+  "lab_tests": {
+    "Purity test using solubility": "Checks if sugar fully dissolves in water without residue.",
+    "Chemical test for washing soda": "Detects the presence of alkaline substances like washing soda."
+  },
+  "youtube_links": ["https://www.youtube.com/embed/M6x9JGA-TXY?si=m1rKPQZ-OhvOUBcB"],
+  "youtube_shorts_links": [null],
+  "self_video_link": [],
+  "prevention_tips": "Buy refined, white sugar from trusted brands. Avoid loose or dusty sugar.",
+  "related_articles": [
+    "https://timesofindia.indiatimes.com/life-style/food-news/is-the-sugar-you-are-buying-from-the-market-adulterated-with-urea/photostory/87607443.cms",
+"https://www.hindustantimes.com/cities/chandigarh-news/action-against-food-adulteration-700-kg-jaggery-seized-challans-issued-in-ludhiana-101747332148117.html",
+"https://foodmanifest.com/the-bitter-truth-about-sugar-adulteration/"
+  ],
+  "image_url": "https://www.tasteofhome.com/wp-content/uploads/2019/11/sugar-shutterstock_615908132.jpg",
+  "tags": ["sugar", "sweetener", "adulteration", "condiment", "purity test"]
+},
+
+{
+  "name": "Sweets (Mithai)",
+  "category": "Confectionery",
+  "description": "Traditional Indian sweets made from milk, sugar, and flour are prone to adulteration with non-edible silver foil, synthetic colors, and impure milk solids.",
+  "adulteration_types": [
+    "Aluminum foil instead of silver vark",
+    "Synthetic colors",
+    "Detergent in milk solids",
+    "Non-edible starch"
+  ],
+  "health_issues": [
+    "Liver and kidney issues",
+    "Metal poisoning",
+    "Allergic reactions",
+    "Digestive discomfort"
+  ],
+  "home_remedies": {
+    "Silver Foil Test": "Pure silver foil dissolves in nitric acid; aluminum or non-silver foil does not.",
+    "Color Rub Test": "Rub a bit of the sweet with a wet cotton; if color comes off, synthetic dye was used.",
+    "Starch Iodine Test": "Dissolve a small piece of sweet in warm water, add iodine; blue color shows presence of starch adulterant.",
+    "Detergent Lather Test": "Dissolve sweet in water and shake; if foam forms, detergent may be present."
+  },
+  "lab_tests": {
+    "XRF Analysis for Silver Purity": "Uses X-ray fluorescence to check if the decorative foil is genuine silver.",
+    "Chemical Detergent Test": "Detects presence of detergent or surfactant residues in milk solids.",
+    "Spectrophotometric Colorant Test": "Identifies synthetic food dyes in sweets via spectrophotometry."
+  },
+  "youtube_links": ["https://www.youtube.com/embed/Lu6ciCrebL0?si=OMaPMk2Q0xtBvetR" ],
+  "youtube_shorts_links": ["https://youtube.com/shorts/0r-WUjwnPrc?si=EHI3KgDD7CFJDSL4"],
+  "self_video_link": [""],
+  "prevention_tips": "Buy sweets from reputed shops. Avoid overly bright sweets during festivals. Check for FSSAI license, manufacturing date, and proper labeling.",
+  "related_articles": [
+    "https://timesofindia.indiatimes.com/life-style/food-news/5-common-adulterants-found-in-store-bought-diwali-sweets/articleshow/124554007.cms",
+    "https://www.ndtv.com/india-news/telangana-raids-95-sweet-shops-seizes-over-100-kg-of-adulterated-food-before-diwali-9481673",
+    "https://www.thehansindia.com/news/cities/hyderabad/diwali-crackdown-food-safety-dept-seizes-60-kg-sweets-40-kg-bread-1016208"
+  ],
+  "image_url": "https://t4.ftcdn.net/jpg/02/54/92/05/360_F_254920579_xOIyVqIWxgUi0fSQ8FwBC95YlIVZpuCd.jpg",
+  "tags": [
+    "sweets",
+    "mithai",
+    "adulteration",
+    "silver foil",
+    "food safety",
+    "synthetic colour"
+  ]
+}
+
+,
+{
+  "name": "Tea Leaves",
+  "category": "Beverages",
+  "description": "Dried leaves from the Camellia sinensis plant used for making tea. Adulteration may include addition of colored leaves, iron filings, or exhausted tea leaves.",
+  "adulteration_types": [
+    "Iron filings",
+    "Colored used tea leaves",
+    "Coal tar dye",
+    "Talcum powder"
+  ],
+  "health_issues": [
+    "Liver and kidney problems",
+    "Metal poisoning",
+    "Stomach irritation",
+    "Skin allergies"
+  ],
+  "home_remedies": {
+    "Blotting Paper Test": "Place tea leaves on a wet blotting paper. If colored spots appear, it indicates the presence of artificial dye.",
+    "Magnet Test": "Move a magnet near the tea leaves; if particles stick, it means iron filings are present.",
+    "Color Boil Test": "Boil a small quantity of tea leaves in water. If color appears instantly, artificial coloring may be added."
+  },
+  "lab_tests": {
+    "Spectrophotometric Analysis": "Used to detect synthetic dyes such as coal tar colorants in tea samples.",
+    "Heavy Metal Test": "Determines contamination from iron filings, lead, or other heavy metals.",
+    "Microscopic Examination": "Identifies exhausted tea leaves or foreign organic matter."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/mP330cmWdPE?si=dbsokvFVDsuGnhLb"
+  ],
+  "youtube_shorts_links": ["https://www.youtube.com/embed/ZmNv8Uo3dCE?si=XsKqgFaYYMQ-oEEh" ],
+  "self_video_link": [""],
+  "prevention_tips": "Purchase tea only from reputed brands with FSSAI certification. Avoid tea that looks unusually dark, glossy, or gives off color too quickly when brewed.",
+  "related_articles": [
+    "https://timesofindia.indiatimes.com/life-style/food-news/fssai-issues-alert-on-adulterated-tea-powder-containing-iron-filings/articleshow/122015210.cms",
+    "https://www.downtoearth.org.in/news/food/adulterated-tea-with-iron-filings-and-coal-tar-dye-detected-in-several-states-92203",
+    "https://www.thehindu.com/news/national/fssai-warns-against-adulterated-tea-powder-with-iron-filings/articlescshow/121880022.cms"
+  ],
+  "image_url": "https://www.healthbenefitstimes.com/glossary/wp-content/uploads/2020/10/Tea-Leaves.jpg",
+  "tags": [
+    "tea",
+    "beverages",
+    "iron filings",
+    "coal tar dye",
+    "adulteration",
+    "food safety"
+  ]
+}
+
+,
+{
+  "name": "Turmeric Powder",
+  "category": "Spices",
+  "description": "A bright yellow spice obtained from turmeric roots, widely used in cooking, coloring, and traditional medicine for its anti-inflammatory properties.",
+  "adulteration_types": [
+    "Metanil yellow",
+    "Lead chromate",
+    "Chalk powder",
+    "Starch",
+    "Artificial colorants"
+  ],
+  "health_issues": [
+    "Liver damage",
+    "Cancer risk due to lead chromate",
+    "Stomach irritation",
+    "Allergic reactions"
+  ],
+  "home_remedies": {
+    "Water Test": "Mix a teaspoon of turmeric in a glass of warm water. Pure turmeric settles at the bottom, while adulterated ones with artificial colors float or spread color instantly.",
+    "Iodine Test": "Add a few drops of iodine solution. Blue coloration indicates the presence of starch.",
+    "Concentrated HCl Test": "Add a few drops of concentrated hydrochloric acid to turmeric. Red or pink color indicates the presence of metanil yellow (a harmful synthetic dye).",
+    "Palm Rub Test": "Rub a small pinch of turmeric between your fingers. Pure turmeric stains your skin yellow but easily washes off; adulterated ones leave a strong chemical stain.",
+    "Paper Test": "Place a pinch of turmeric powder on a wet tissue or blotting paper. Artificial colors leave a bright mark immediately, showing adulteration."
+  },
+  "lab_tests": {
+    "Spectrophotometric Test": "Used for detecting lead chromate contamination.",
+    "Chemical Reagent Test": "Used for identifying the presence of metanil yellow.",
+    "Chromatography Analysis": "Detects artificial dyes and colorants in turmeric."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/Q4kmNgc7LXM"
+  ],
+  "youtube_shorts_links": [
+    "https://www.youtube.com/embed/EVZO2xajT4U",
+    "https://www.youtube.com/embed/9SSiFu-7VOE"
+  ],
+  "self_video_link": [
+    
+  ],
+  "prevention_tips": "Avoid overly bright yellow or shiny turmeric powder as it may contain artificial colors or lead chromate. Buy only from certified organic or branded spice producers. Check FSSAI mark before purchase.",
+  "related_articles": [
+    "https://www.telegraphindia.com/india/toxic-turmeric-indian-cities-on-lead-overdose-list-spotlight-on-intentional-adulteration/cid/2037740",
+    "https://adani.news/gujarat-racket-of-making-fake-turmeric-was-caught-different-types-of-chemicals-were-mixed-in-turmeric/",
+    "https://www.timesnownews.com/lifestyle/food/news/fake-turmeric-on-the-rise-essential-tips-for-checking-spice-purity-and-how-to-make-fresh-haldi-powder-article-114868903",
+    "https://www.msn.com/en-in/foodanddrink/other/kitchen-tips-are-turmeric-chili-and-asafoetida-real-or-fake-check-at-home-with-these-5-simple-hacks/ar-AA1NRc7U?ocid=BingNewsVerp"
+  ],
+  "image_url": "https://tse2.mm.bing.net/th/id/OIP.1TSZF_aGqYmTVmRSNeJ5fAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  "tags": [
+    "turmeric",
+    "metanil yellow",
+    "lead chromate",
+    "spices",
+    "food safety",
+    "adulteration",
+    "home test"
+  ]
+}
+,
+{
+  "name": "Vegetable Oils",
+  "category": "Oils",
+  "description": "Vegetable oils such as mustard, groundnut, sunflower, and soybean oil are commonly used for cooking. These oils are often adulterated with cheaper or non-edible oils to reduce cost or enhance color and aroma, posing serious health hazards.",
+  "adulteration_types": [
+    "Mixing of cheaper oils like mineral oil or castor oil",
+    "Addition of argemone oil to mustard oil",
+    "Blending with palmolein or synthetic coloring agents",
+    "Use of industrial-grade solvents in extraction"
+  ],
+  "health_issues": [
+    "Dropsy and skin rashes from argemone oil",
+    "Digestive and liver disorders",
+    "Cardiovascular problems due to trans fats",
+    "Nausea and headaches from chemical residues"
+  ],
+  "home_remedies": {
+    "Argemone Oil Test": "Add a few drops of nitric acid to 5 ml of mustard oil and shake well. A reddish-brown color indicates the presence of argemone oil.",
+    "Refrigeration Test": "Keep the oil sample in a refrigerator for a few hours. Pure oils thicken uniformly, while adulterated ones show separate layers or remain cloudy.",
+    "Paper Test": "Place a drop of oil on a blotting paper. Pure oil leaves no greasy stain after drying, but adulterated oil leaves a sticky residue."
+  },
+  "lab_tests": {
+    "TLC Test": "Thin Layer Chromatography helps detect argemone or mineral oil contamination.",
+    "GC-MS Analysis": "Determines fatty acid profile and identifies adulterants like palmolein or castor oil.",
+    "Baudouin Test": "Used for detecting sesame oil adulteration in other edible oils."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/vg5H0RSt8gA"
+  ],
+  "youtube_shorts_links": [
+    ""
+  ],
+  "self_video_link": [
+    ""
+  ],
+  "prevention_tips": "Always buy branded edible oils with AGMARK or FSSAI certification. Avoid oil that has an unusual odor or color. Store oil in airtight containers away from sunlight to prevent rancidity.",
+  "related_articles": [
+    "https://www.fssai.gov.in/adulteration/vegetable-oil",
+    "https://timesofindia.indiatimes.com/life-style/health-fitness/diet/how-to-detect-oil-adulteration-at-home/articleshow/102912083.cms",
+    "https://www.indiatoday.in/india/story/fssai-warns-against-argemone-oil-adulteration-in-mustard-oil-2430027-2025-02-05"
+  ],
+  "image_url": "https://tse4.mm.bing.net/th/id/OIP.79e2HoYrYFA146Hf7wRLBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  "tags": [
+    "vegetable oil",
+    "mustard oil",
+    "argemone oil",
+    "food adulteration",
+    "oil purity test",
+    "fssai",
+    "cooking oil safety"
+  ]
+}
+,
+{
+  "name": "Wheat Flour (Atta)",
+  "category": "Grains",
+  "description": "A staple food ingredient made by grinding whole wheat grains. Adulteration includes chalk powder, soapstone, or bran to increase weight and texture artificially.",
+  "adulteration_types": [
+    "Chalk powder",
+    "Soapstone powder",
+    "Excess bran or maize flour"
+  ],
+  "health_issues": [
+    "Digestive irritation",
+    "Calcium imbalance",
+    "Malnutrition",
+    "Acidity and stomach discomfort"
+  ],
+  "home_remedies": {
+    "Water Test": "Dissolve a spoon of flour in a glass of water. Pure flour slowly settles; adulterants like chalk or soapstone form a white layer on top or settle quickly.",
+    "Taste Test": "Pure flour has a natural wheat taste; chalky or soapy taste indicates adulteration.",
+    "Lemon Test": "Add a few drops of lemon juice to the flour paste. If it fizzes or bubbles, chalk powder may be present.",
+    "HCl Test": "Mix a small quantity of flour with dilute hydrochloric acid. Effervescence (bubbling) confirms the presence of calcium carbonate or chalk."
+  },
+  "lab_tests": {
+    "Ash Value Test": "Determines the presence of inorganic adulterants like chalk or soapstone by measuring total ash content.",
+    "Moisture Analysis": "Measures the water content in the flour to detect improper drying or adulteration.",
+    "Calcium Carbonate Detection": "Uses acid reaction to identify chalk or limestone contamination."
+  },
+  "youtube_links": [
+    "https://www.youtube.com/embed/azBztyWRwpY",
+    "https://www.youtube.com/embed/byWHrd6ntPE"
+  ],
+  "youtube_shorts_links": [
+    "https://www.youtube.com/embed/K0YSVjMTMAo"
+  ],
+  "self_video_link": [
+   
+  ],
+  "prevention_tips": "Buy packaged, FSSAI-certified atta. Avoid extremely white flour as pure wheat flour has a slightly brownish hue. Store in an airtight container to prevent moisture and insects.",
+  "related_articles": [
+    "https://www.thehindu.com/news/cities/Delhi/hundreds-hospitalised-after-consuming-adulterated-flour/article70086142.ece",
+    "https://timesofindia.indiatimes.com/life-style/food-news/simple-ways-to-detect-adulteration-in-flour/articleshow/98322115.cms",
+    "https://www.azom.com/article.aspx?ArticleID=22918"
+  ],
+  "image_url": "https://img.freepik.com/premium-photo/free-photo-wheat-flour_1025753-31882.jpg",
+  "tags": [
+    "wheat flour",
+    "atta",
+    "grain",
+    "adulteration",
+    "purity test",
+    "chalk",
+    "soapstone",
+    "food safety"
+  ]
+}
+]

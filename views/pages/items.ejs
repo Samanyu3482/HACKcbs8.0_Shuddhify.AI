@@ -1,0 +1,70 @@
+<% layout('layouts/boilerplate') %>
+
+
+
+    <div id="particles-js" style="position: fixed; width: 100%; height: 100%; z-index: -1; top: 0; left: 0;"></div>
+    <!-- Hero Heading -->
+    <div class="container py-5 ">
+        <h1 class="fw-bold display-5">Food Purity Detection Desk</h1>
+        <p class="fs-5 mb-5">Learn to detect adulteration in common food items with simple home remedies</p>
+
+        <!-- Search and Category -->
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <input type="text" class="form-control form-control-lg" placeholder="Search food items...">
+            </div>
+            <div class="col-md-6 d-flex justify-content-md-end align-items-center gap-2 mt-2 mt-md-0">
+                <span class="fw-bold me-2">Category</span>
+                <button class="btn btn-outline-success active">All</button>
+                <button class="btn btn-outline-success">Dairy</button>
+                <button class="btn btn-outline-success">Sweetener</button>
+                <button class="btn btn-outline-success">Spices</button>
+                <button class="btn btn-outline-success">Fruits</button>
+                <button class="btn btn-outline-success">Beverages</button>
+            </div>
+        </div>
+        <small>Showing <%= items.length %> of <%= items.length %> items</small>
+
+    </div>
+
+    <div class="container mb-5">
+        <div class="row g-4">
+            <% items.forEach(item=> { %>
+                <div class="col-12 col-sm-6 col-lg-4 d-flex">
+                    <div class="card shadow-sm rounded-4 h-100 w-100">
+                        <div class="card-img-top bg-secondary bg-opacity-10"
+                            style="height:180px; border-radius:1rem 1rem 0 0; background-image: url('<%= item.image_url %>'); background-size: cover; background-position: center;">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title fw-bold">
+                                <%= item.name %>
+                            </h3>
+                            <p class="card-text text-muted mb-1">
+                                <%= item.category %>
+                            </p>
+
+                            <small class="fw-bold">Adultration Types:</small>
+                            <% if (item.adulteration_types && item.adulteration_types.length) { %>
+                                <% item.adulteration_types.slice(0,3).forEach(type=> { %>
+                                    <span class="badge bg-success bg-opacity-10 text-success mx-1">
+                                        <%= type %>
+                                    </span>
+                                    <% }) %>
+                                        <% if (item.adulteration_types.length> 3) { %>
+                                            <span class="badge bg-secondary bg-opacity-25 text-dark mx-1">
+                                                +<%= item.adulteration_types.length - 3 %> more
+                                            </span>
+                                            <% } %>
+                                                <% } %>
+
+                                                    <br>
+                                                    <a href="/items/<%= item._id %>"
+                                                        class="fw-bold text-success mt-3 d-inline-block">
+                                                        Learn More &gt;
+                                                    </a>
+                        </div>
+                    </div>
+                </div>
+                <% }) %>
+        </div>
+    </div>

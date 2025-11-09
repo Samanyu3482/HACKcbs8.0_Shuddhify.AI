@@ -1,0 +1,58 @@
+<% layout('layouts/boilerplate') %>
+
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card shadow-sm rounded-4">
+        <div class="card-body p-5">
+          <div class="text-center mb-4">
+            <% if (user.picture) { %>
+              <img src="<%= user.picture %>" alt="Profile" class="rounded-circle mb-3" width="120" height="120">
+            <% } else { %>
+              <div class="rounded-circle bg-success bg-opacity-10 text-success d-inline-flex align-items-center justify-content-center mb-3" 
+                   style="width: 120px; height: 120px; font-size: 48px;">
+                <%= user.name ? user.name.charAt(0).toUpperCase() : 'U' %>
+              </div>
+            <% } %>
+            <h2 class="fw-bold"><%= user.name || 'User' %></h2>
+            <p class="text-muted"><%= user.email %></p>
+          </div>
+
+          <hr class="my-4">
+
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <h6 class="text-muted mb-1">Name</h6>
+              <p class="fw-bold"><%= user.name || 'Not provided' %></p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <h6 class="text-muted mb-1">Email</h6>
+              <p class="fw-bold"><%= user.email %></p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <h6 class="text-muted mb-1">Email Verified</h6>
+              <p class="fw-bold">
+                <% if (user.email_verified) { %>
+                  <span class="badge bg-success">✓ Verified</span>
+                <% } else { %>
+                  <span class="badge bg-warning">Not Verified</span>
+                <% } %>
+              </p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <h6 class="text-muted mb-1">User ID</h6>
+              <p class="fw-bold text-truncate"><%= user.sub %></p>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <div class="text-center">
+            <a href="/" class="btn btn-success me-2">Back to Home</a>
+            <a href="/logout" class="btn btn-outline-danger">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

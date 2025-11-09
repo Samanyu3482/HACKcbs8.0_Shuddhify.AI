@@ -1,0 +1,121 @@
+<% layout('layouts/boilerplate') %>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div id="particles-js"></div>
+        <div class="container">
+            
+            <h1 class="hero-title">Food Safety News</h1>
+            <p class="hero-subtitle">Stay updated with the latest food safety alerts and updates in your area</p>
+        </div>
+    </section>
+
+    <!-- Location Filter -->
+    <section class="location-section bg-white py-3 shadow-sm">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between flex-wrap">
+                <div class="d-flex align-items-center flex-wrap gap-2">
+                    <div class="d-flex align-items-center me-3">
+                        <svg class="location-icon me-2" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M10 2C6.69 2 4 4.69 4 8C4 12.5 10 18 10 18C10 18 16 12.5 16 8C16 4.69 13.31 2 10 2ZM10 10.5C8.62 10.5 7.5 9.38 7.5 8C7.5 6.62 8.62 5.5 10 5.5C11.38 5.5 12.5 6.62 12.5 8C12.5 9.38 11.38 10.5 10 10.5Z" fill="#22c55e"/>
+                        </svg>
+                        <span class="fw-semibold">Your Location:</span>
+                    </div>
+                    <button class="btn btn-location active">National</button>
+                    <button class="btn btn-location">Delhi</button>
+                    <button class="btn btn-location">Mumbai</button>
+                    <button class="btn btn-location">Bangalore</button>
+                    <button class="btn btn-location">Punjab</button>
+                    <button class="btn btn-location">Chennai</button>
+                </div>
+                <button class="btn btn-auto-detect mt-2 mt-md-0">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" class="me-2">
+                        <path d="M8 2C4.69 2 2 4.69 2 8C2 12.5 8 18 8 18C8 18 14 12.5 14 8C14 4.69 11.31 2 8 2ZM8 10.5C6.62 10.5 5.5 9.38 5.5 8C5.5 6.62 6.62 5.5 8 5.5C9.38 5.5 10.5 6.62 10.5 8C10.5 9.38 9.38 10.5 8 10.5Z" fill="#0891b2"/>
+                    </svg>
+                    Auto-Detect
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Cards Section -->
+    <section class="news-section py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Latest Updates for National</h2>
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-6">
+                    <div class="news-card h-100">
+                        <span class="badge-category badge-guideline">Guideline</span>
+                        <h3 class="card-title">New Food Safety Guidelines Released</h3>
+                        <p class="card-description">FSSAI releases updated food safety protocols for dairy products and spices.</p>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                            <div class="d-flex align-items-center text-muted">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" class="me-2">
+                                    <path d="M13 2H12V1H11V2H5V1H4V2H3C2.45 2 2 2.45 2 3V14C2 14.55 2.45 15 3 15H13C13.55 15 14 14.55 14 14V3C14 2.45 13.55 2 13 2ZM13 14H3V6H13V14ZM13 5H3V3H13V5Z" fill="#6b7280"/>
+                                </svg>
+                                <span class="small">Oct 25, 2025</span>
+                            </div>
+                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7 4L13 10L7 16" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-6">
+                    <div class="news-card h-100">
+                        <span class="badge-category badge-guideline">Guideline</span>
+                        <h3 class="card-title">Mustard Oil Quality Standards Updated</h3>
+                        <p class="card-description">New testing requirements ensure higher quality standards for mustard oil products.</p>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                            <div class="d-flex align-items-center text-muted">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" class="me-2">
+                                    <path d="M13 2H12V1H11V2H5V1H4V2H3C2.45 2 2 2.45 2 3V14C2 14.55 2.45 15 3 15H13C13.55 15 14 14.55 14 14V3C14 2.45 13.55 2 13 2ZM13 14H3V6H13V14ZM13 5H3V3H13V5Z" fill="#6b7280"/>
+                                </svg>
+                                <span class="small">Oct 20, 2025</span>
+                            </div>
+                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7 4L13 10L7 16" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-6">
+                    <div class="news-card h-100">
+                        <span class="badge-category badge-technology">Technology</span>
+                        <h3 class="card-title">New Detection Technology Launched</h3>
+                        <p class="card-description">FSSAI adopts AI-powered detection system for rapid food testing.</p>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                            <div class="d-flex align-items-center text-muted">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" class="me-2">
+                                    <path d="M13 2H12V1H11V2H5V1H4V2H3C2.45 2 2 2.45 2 3V14C2 14.55 2.45 15 3 15H13C13.55 15 14 14.55 14 14V3C14 2.45 13.55 2 13 2ZM13 14H3V6H13V14ZM13 5H3V3H13V5Z" fill="#6b7280"/>
+                                </svg>
+                                <span class="small">Oct 15, 2025</span>
+                            </div>
+                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7 4L13 10L7 16" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <h2 class="newsletter-title">Never Miss an Alert</h2>
+            <p class="newsletter-subtitle">Subscribe to get instant notifications about food safety alerts</p>
+            <div class="newsletter-form">
+                <input type="email" class="form-control newsletter-input" placeholder="Enter your email">
+                <button class="btn btn-subscribe">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+   
+

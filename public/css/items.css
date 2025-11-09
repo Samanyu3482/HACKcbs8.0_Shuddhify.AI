@@ -1,0 +1,85 @@
+body {
+  background: #f2fcfc !important;
+  font-family: 'Inter', sans-serif;
+}
+
+.card {
+  border: none;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0.8rem 1.6rem rgba(34, 197, 94, 0.15);
+}
+
+/* Image Styling */
+.card-img-top {
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Card Content */
+.card-body {
+  padding: 1.25rem 1.5rem;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.75rem;
+}
+
+/* Badges */
+.badge {
+  font-size: 0.9rem;
+  padding: 0.4em 0.75em;
+  border-radius: 0.75em;
+  margin-top: 0.25em;
+  margin-right: 0.35em;
+}
+
+.bg-success.bg-opacity-10 {
+  background-color: rgba(34, 197, 94, 0.1) !important;
+  color: #22c55e !important;
+  font-weight: 600;
+}
+
+.bg-secondary.bg-opacity-25 {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  color: #333 !important;
+  font-weight: 500;
+}
+
+/* Learn More link */
+a.text-success {
+  text-decoration: none;
+  color: #22c55e !important;
+  font-weight: 600;
+}
+
+a.text-success:hover {
+  text-decoration: underline;
+}
+
+/* Card Container */
+.container .row {
+  justify-content: center;
+}
+
+.col-12.col-sm-6.col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
