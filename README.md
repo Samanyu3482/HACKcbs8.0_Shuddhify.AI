@@ -223,11 +223,11 @@ Automatic report forwarding to regulatory authorities
 
 ### Video Demonstration
 
-Watch Full Demo Video: YOUR_VIDEO_LINK
+Watch Full Demo Video: https://youtu.be/Q_gUePurSJ4?si=bBwEE8yPdlT67yat
 
 ### Presentation
 
-View Presentation Slides: YOUR_PPT_LINK
+View Presentation Slides: https://www.canva.com/design/DAG3_7geF1s/4NDaRu1I65P1qAGi-xAQ6Q/edit?utm_content=DAG3_7geF1s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ---
 
